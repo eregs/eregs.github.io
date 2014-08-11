@@ -28,19 +28,19 @@ logoalt: Consumer Financial Protection Bureau
 # List links that should appear in the site sidebar here
 navigation:
 - text: Repositories
-  url: #repositories
+  url: '#repositories'
   internal: true
 - text: Features
-  url: #features
+  url: '#features'
   internal: true
 - text: Architecture
-  url: #architecture
+  url: '#architecture'
   internal: true
 - text: Technology
-  url: #technology
+  url: '#technology'
   internal: true
 - text: Open Source Contributing
-  url: #open-source-and-contributing
+  url: '#open-source-and-contributing'
   internal: true
 
 
