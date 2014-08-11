@@ -1,0 +1,61 @@
+# Base configuration
+permalink: /:title
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+markdown: kramdown
+pygments: true
+
+# Title
+name: eRegulations
+subtitle: Making regulations easily readable, accessible, and understandable.
+
+# When using this template with a project page set the baseurl to '/project-name'
+# For user/organization pages set this to an empty string
+# When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
+# See http://jekyllrb.com/docs/github-pages/ for more info
+#baseurl: ''
+baseurl: '/eRegulations'
+
+# Author/Organization info to be displayed in the templates
+author:
+  name: CFPB
+  url: http://cfpb.github.io/
+
+# Point the logo URL at a file in your repo or hosted elsewhere by your organization
+logourl: http://cfpb.github.io/img/logo_210.png
+logoalt: Consumer Financial Protection Bureau
+
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+- text: Repositories
+  url: #repositories
+  internal: true
+- text: Features
+  url: #features
+  internal: true
+- text: Architecture
+  url: #architecture
+  internal: true
+- text: Technology
+  url: #technology
+  internal: true
+- text: Open Source Contributing
+  url: #open-source-and-contributing
+  internal: true
+
+
+# Repo list
+# List repos that you would like to appear on the homepage here
+repos:
+- name: regulations-parser
+  description: Parse regulations
+  url: https://github.com/cfpb/regulations-parser
+- name: regulations-core
+  description: Regulations API
+  url: https://github.com/cfpb/regulations-core
+- name: regulations-site
+  description: Display the regulations
+  url: https://github.com/cfpb/regulations-site
+
+# Style Variables
+brand_color: "#2cb34a"
