@@ -1,7 +1,7 @@
 eRegulations Documentation
 ============
 
-[eRegulations](http://www.consumerfinance.gov/eregulations/) is a web-based tool that makes regulations easy to find, read and understand with features such as inline official interpretations, highlighted defined terms, and a revision comparison view. This repository contains documentation for the project and can be viewed at <http://cfpb.github.io/eRegulations>
+[eRegulations](http://www.consumerfinance.gov/eregulations/) is a web-based tool that makes regulations easier to find, read and understand with features such as inline official interpretations, highlighted defined terms, and a revision comparison view. This repository contains documentation for the project and can be viewed at <http://cfpb.github.io/eRegulations>
 
 ## Editing the documentation
 
