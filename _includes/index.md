@@ -46,6 +46,13 @@ regulations-core is a Django and Haystack application.
 
 The regulations-site front-end is a Backbone.js application using Browserify. We also use a Grunt-based build system with Mocha for unit testing. On the back-end, regulations-site is a Django application.
 
+## Getting Started
+
+The best way to get started with eRegulations is via 
+[regulations-bootstrap](https://github.com/cfpb/regulations-bootstrap).
+This repository contains scripts that will setup a working copy of
+eRegulations either locally or in a virtual machine. 
+
 ## Open Source and Contributing
 
 We invite contributions to any part of the application. The project is in the public domain, and all contributions to it will be released as such. By submitting a pull request, you are agreeing to waive all rights to your contribution under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/).
