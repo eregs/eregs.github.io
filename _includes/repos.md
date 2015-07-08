@@ -4,7 +4,7 @@
 There are many individual repositories that make up eRegulations. These are divided below into the main body of eRegulations, tools to support eRegulations, and finally CFPB-specific modifications and data for eRegulations.
 
 {% if site.repos %}
-<section id="repositories">
+<section id="main-repositories">
   <h3 id="repositories">eRegulations</h3>
   <ul class="repo-list group">
     <li class="list-icon">
@@ -23,7 +23,7 @@ There are many individual repositories that make up eRegulations. These are divi
 {% endif %}
 
 {% if site.support_repos %}
-<section id="repositories">
+<section id="support-repositories">
   <h3 id="repositories">Support</h3>
   <ul class="repo-list group">
     <li class="list-icon">
@@ -42,7 +42,7 @@ There are many individual repositories that make up eRegulations. These are divi
 {% endif %}
 
 {% if site.cfpb_repos %}
-<section id="repositories">
+<section id="cfpb-repositories">
   <h3 id="repositories">CFPB-Specific</h3>
   <ul class="repo-list group">
     <li class="list-icon">
