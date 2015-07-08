@@ -39,6 +39,9 @@ navigation:
 - text: Technology
   url: '#technology'
   internal: true
+- text: Getting Started
+  url: '#getting-started'
+  internal: true
 - text: Open Source Contributing
   url: '#open-source-and-contributing'
   internal: true
@@ -56,6 +59,19 @@ repos:
 - name: regulations-site
   description: Display the regulations
   url: https://github.com/cfpb/regulations-site
+
+support_repos:
+- name: regulations-bootstrap
+  description: Bootstrap eRegulations
+  url: https://github.com/cfpb/regulations-bootstrap
+
+cfpb_repos:
+- name: regulations-stub
+  description: Parsed CFPB regulations
+  url: https://github.com/cfpb/regulations-stub
+- name: fr-notices
+  description: XML for CFPB regulations
+  url: https://github.com/cfpb/fr-notices
 
 # Style Variables
 brand_color: "#2cb34a"
