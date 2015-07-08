@@ -389,6 +389,10 @@ ul.repo-list {
 
 .repo-list li {
     list-style: none;
+    margin-bottom: 0;
+    height: 4.0625em;
+    max-height: 4.0625em;
+    background-color: #E7E7E6;
 }
 
 .repo-list p {
@@ -399,6 +403,27 @@ ul.repo-list {
 .repo-list h4 {
     text-transform: none;
 }
+
+.repo-list a:link,
+.repo-list a:visited {
+    display: block;
+    max-height: 4.0625em;
+    background-color: #E7E7E6;
+    padding: .625em 1em 1em 1em;
+    border-bottom: none;
+}
+
+.repo-list a:hover {
+    color: #4D5F87;
+    background-color: #CDE3F1;
+}
+
+.repo-list li:first-child {
+    text-align: center;
+    line-height: 60px;
+    padding: .625em 1em;
+}
+
 
 /*
 Helper Classes
@@ -473,37 +498,18 @@ Desktop Styles
     Repo list
     ------------------------------
     */
+}
+
+@media screen and (min-width: 54.375em) and (min-height: 32.5em) {
 
     .repo-list li {
-        list-style: none;
-        display: block;
         float: left;
-        height: 4.0625em;
-        max-height: 4.0625em;
-        background-color: #E7E7E6;
         border-left: 1px solid #BABBBD;
         width: 30%;
     }
 
-    .repo-list a:link,
-    .repo-list a:visited {
-        display: block;
-        max-height: 4.0625em;
-        background-color: #E7E7E6;
-        border-bottom: none;
-        padding: .625em 1em 1em 1em;
-    }
-
-    .repo-list a:hover {
-        color: #4D5F87;
-        background-color: #CDE3F1;
-    }
-
     .repo-list li:first-child {
-        text-align: center;
         border-left: none;
-        line-height: 60px;
-        padding: .625em 1em;
         width: 10%;
     }
 
@@ -514,14 +520,24 @@ Desktop Styles
     /* keep the repo list containers the same height, but account for the need for more height */
 
     .repo-list li {
-        height: 6em;
-        max-height: 6em;
+        float: none;
+        border-top: 1px solid #BABBBD;
     }
 
     .repo-list a:link,
     .repo-list a:visited {
-        max-height: 6em;
+        border-bottom: none;
     }
+
+    .repo-list a:hover {
+        color: #4D5F87;
+        background-color: #CDE3F1;
+    }
+
+    .repo-list li:first-child {
+        border-top: none;
+    }
+
 }
 
 /*
@@ -533,6 +549,24 @@ Mobile Styles
 
     .main-content {
         margin-top: 1.5em;
+    }
+
+    .repo-list li {
+        border-top: 1px solid #BABBBD;
+    }
+
+    .repo-list a:link,
+    .repo-list a:visited {
+        border-bottom: none;
+    }
+
+    .repo-list a:hover {
+        color: #4D5F87;
+        background-color: #CDE3F1;
+    }
+
+    .repo-list li:first-child {
+        border-top: none;
     }
 
 }
