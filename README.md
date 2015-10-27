@@ -7,11 +7,12 @@ eRegulations Documentation
 
 The documentation uses [Jekyll](http://jekyllrb.com/) and our [DOCter](https://github.com/cfpb/DOCter) theme.
 
-Be sure to have Jekyll and Kramdown installed:
+Be sure to have Jekyll, Kramdown, and Pygments.rb installed.
 
 ```
 gem install jekyll
 gem install kramdown
+gem install pygments.rb
 ```
 
 Fork and clone the repo:
