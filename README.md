@@ -7,7 +7,7 @@ eRegulations Documentation
 
 The documentation uses [Jekyll](http://jekyllrb.com/) and our [DOCter](https://github.com/cfpb/DOCter) theme.
 
-DOCter needs Jekyll, Kramdown, and Pygments.rb to run locally. These can be installed with Bundler by running the following commands.
+DOCter needs Jekyll and other dependencies to run locally. These can be installed with Bundler by running the following commands.
 
 ```
 gem install bundler
@@ -23,8 +23,10 @@ cd DOCter
 Run Jekyll:
 
 ```
-jekyll serve --baseurl ''
+bundle exec jekyll serve --watch --baseurl ''
 ```
+
+Open it up in your browser: <http://localhost:4000/>
 
 
 ### _config.yml
