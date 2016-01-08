@@ -7,24 +7,26 @@ eRegulations Documentation
 
 The documentation uses [Jekyll](http://jekyllrb.com/) and our [DOCter](https://github.com/cfpb/DOCter) theme.
 
-Be sure to have Jekyll and Kramdown installed:
+DOCter needs Jekyll and other dependencies to run locally. These can be installed with Bundler by running the following commands.
 
 ```
-gem install jekyll
-gem install kramdown
+gem install bundler
+bundle install
 ```
 
 Fork and clone the repo:
 
 ```
-git clone git@github.com:ascott1/DOCter.git
+git clone git@github.com:cfpb/DOCter.git
 cd DOCter
 ```
 Run Jekyll:
 
 ```
-jekyll serve --baseurl ''
+bundle exec jekyll serve --watch --baseurl ''
 ```
+
+Open it up in your browser: <http://localhost:4000/>
 
 
 ### _config.yml
