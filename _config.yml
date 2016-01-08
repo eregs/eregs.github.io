@@ -34,24 +34,11 @@ navigation:
 - text: Live Instances
   url: '#live-instances'
   internal: true
-- text: Repositories
-  url: '#repositories'
-  internal: true
 - text: Features
   url: '#features'
   internal: true
-- text: Architecture
-  url: '#architecture'
-  internal: true
 - text: Technology
-  url: '#technology'
-  internal: true
-- text: Getting Started
-  url: '#getting-started'
-  internal: true
-- text: Open Source Contributing
-  url: '#open-source-and-contributing'
-  internal: true
+  url: '/technology/'
 
 
 # Repo list

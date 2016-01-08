@@ -32,30 +32,8 @@ The notices that compose a version of the regulation contain relevant analyses o
 - #### RESPONSIVE DESIGN.
 The application design is responsive, adjusting to the device and screen size of the user.
 
-## Architecture
-
-There are three parts to the eRegulations application: a parser that converts regulation text into data ([regulations-parser](https://github.com/cfpb/regulations-parser)), an API that hosts this data ([regulations-core](https://github.com/cfpb/regulations-core)), and a webapp which uses the data from the API to construct beautiful and usable regulations ([regulations-site](https://github.com/cfpb/regulations-site)).
-
-One would typically run the parser against a regulation once (for each version) to populate the API with all the necessary data. regulations-site would then use regulations-core to as necessary to display regulations.
-
-## Technology
-
-regulations-parser is written in Python.
-
-regulations-core is a Django and Haystack application.
-
-The regulations-site front-end is a Backbone.js application using Browserify. We also use a Grunt-based build system with Mocha for unit testing. On the back-end, regulations-site is a Django application.
-
-## Getting Started
-
-The best way to get started with eRegulations is via 
-[regulations-bootstrap](https://github.com/cfpb/regulations-bootstrap).
-This repository contains scripts that will setup a working copy of
-eRegulations either locally or in a virtual machine. 
-
 ## Open Source and Contributing
 
 We invite contributions to any part of the application. The project is in the public domain, and all contributions to it will be released as such. By submitting a pull request, you are agreeing to waive all rights to your contribution under the terms of the [CC0 Public Domain Dedication](http://creativecommons.org/publicdomain/zero/1.0/).
 
 If you contribute the open source work of others, please mark it clearly in your pull request.
-
