@@ -1,12 +1,10 @@
 ---
 layout: default
+subtemplates: [intro, repos, index]
 ---
 
-{% capture intro %}{% include intro.md %}{% endcapture %}
-{{ intro | markdownify }}
-
-{% capture repos %}{% include repos.md %}{% endcapture %}
-{{ repos | markdownify }}
-
-{% capture index %}{% include index.md %}{% endcapture %}
-{{ index | markdownify }}
+{% for subtemplate in page.subtemplates %}
+  {% capture subtemplate_file %}{{subtemplate}}.md{% endcapture %}
+  {% capture markdown %}{% include {{subtemplate_file}} %}{% endcapture %}
+  {{ markdown | markdownify }}
+{% endfor %}
