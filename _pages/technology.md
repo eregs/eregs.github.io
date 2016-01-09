@@ -3,7 +3,7 @@ layout: default
 title: Technology
 subtemplates: [architecture, stack, repos, getting-started]
 ---
-<h1>Technology</h1>
+# Technology
 
 {% for subtemplate in page.subtemplates %}
   {% capture subtemplate_file %}technology/{{subtemplate}}.md{% endcapture %}
