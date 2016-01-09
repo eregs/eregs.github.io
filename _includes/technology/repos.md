@@ -8,7 +8,7 @@ There are many individual repositories that make up eRegulations. These are divi
   <h3 id="repositories">eRegulations</h3>
   <ul class="repo-list group">
     <li class="list-icon">
-      <img src="assets/img/octocat.png" width="25px" alt="">
+      <img src="../assets/img/octocat.png" width="25px" alt="">
     </li>
     {% for repo in site.repos %}
       <li>
@@ -27,7 +27,7 @@ There are many individual repositories that make up eRegulations. These are divi
   <h3 id="repositories">Support</h3>
   <ul class="repo-list group">
     <li class="list-icon">
-      <img src="assets/img/octocat.png" width="25px" alt="">
+      <img src="../assets/img/octocat.png" width="25px" alt="">
     </li>
     {% for repo in site.support_repos %}
       <li>
@@ -46,7 +46,7 @@ There are many individual repositories that make up eRegulations. These are divi
   <h3 id="repositories">CFPB-Specific</h3>
   <ul class="repo-list group">
     <li class="list-icon">
-      <img src="assets/img/octocat.png" width="25px" alt="">
+      <img src="../assets/img/octocat.png" width="25px" alt="">
     </li>
     {% for repo in site.cfpb_repos %}
       <li>

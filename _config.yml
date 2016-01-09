@@ -31,24 +31,14 @@ logoalt: Consumer Financial Protection Bureau
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Repositories
-  url: '#repositories'
+- text: Live Instances
+  url: '#live-instances'
   internal: true
 - text: Features
   url: '#features'
   internal: true
-- text: Architecture
-  url: '#architecture'
-  internal: true
 - text: Technology
-  url: '#technology'
-  internal: true
-- text: Getting Started
-  url: '#getting-started'
-  internal: true
-- text: Open Source Contributing
-  url: '#open-source-and-contributing'
-  internal: true
+  url: '/technology/'
 
 
 # Repo list
@@ -79,3 +69,12 @@ cfpb_repos:
 
 # Style Variables
 brand_color: "#2cb34a"
+
+# eRegs instances in the while
+instances:
+- url: http://www.consumerfinance.gov/eregulations/
+  title: 12
+  agency: Consumer Financial Protection Bureau
+- url: https://atf-eregs.apps.cloud.gov/
+  title: 27
+  agency: Bureau of Alcohol, Tobacco, Firearms and Explosives

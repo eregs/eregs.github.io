@@ -1,10 +1,13 @@
 ---
 layout: default
-subtemplates: [intro, instances, index]
+title: Technology
+subtemplates: [architecture, stack, repos, getting-started]
 ---
+<h1>Technology</h1>
 
 {% for subtemplate in page.subtemplates %}
-  {% capture subtemplate_file %}{{subtemplate}}.md{% endcapture %}
+  {% capture subtemplate_file %}technology/{{subtemplate}}.md{% endcapture %}
   {% capture markdown %}{% include {{subtemplate_file}} %}{% endcapture %}
   {{ markdown | markdownify }}
 {% endfor %}
+
