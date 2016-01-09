@@ -38,7 +38,8 @@ navigation:
   url: '#features'
   internal: true
 - text: Technology
-  url: '/technology/'
+  url: 'technology/'
+  internal: true
 
 
 # Repo list
