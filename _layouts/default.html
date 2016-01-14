@@ -24,11 +24,6 @@
     <div class="container">
       <header role="banner">
         <div class="wrap">
-          {% if site.logourl != null %}
-          <a href="http://www.consumerfinance.gov/" target="_blank">
-            <img class="logo" src="{{ site.logourl }}" alt="{{ site.logoalt }}">
-          </a>
-          {% endif %}
           <h1 class="site-title"><a class="title-link" href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
         </div>
       </header>
@@ -45,7 +40,11 @@
 
       <footer role="contentinfo">
         <div class="wrap">
-          <p>This project is maintained by the <a href="{{ site.author.url }}">{{ site.author.name }}</a>.</p>
+          <p>This project is maintained by
+            the <a href="https://cfpb.github.io">CFPB</a>
+            and
+            <a href="https://18f.gsa.gov">18F</a>.
+          </p>
 
           <p>Hosted on <a href="http://pages.github.com/">GitHub Pages</a>.</p>
         </div><!--/.wrap -->
