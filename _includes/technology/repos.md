@@ -1,62 +1,24 @@
-
 ## Repositories
 
-There are many individual repositories that make up eRegulations. These are divided below into the main body of eRegulations, tools to support eRegulations, and finally CFPB-specific modifications and data for eRegulations.
+There are many individual repositories that make up eRegulations; this is
+complicated by having two primary forks maintained by CFPB and 18F
+respectively. While these forks will ultimately be merged and maintenance
+shared between multiple agencies, those interested in using eRegs now should
+generally prefer the 18F repositories.
 
-{% if site.repos %}
+{% if site.general_repos %}
 <section id="main-repositories">
-  <h3 id="repositories">eRegulations</h3>
-  <ul class="repo-list group">
-    <li class="list-icon">
-      <img src="../assets/img/octocat.png" width="25px" alt="">
-    </li>
-    {% for repo in site.repos %}
-      <li>
-        <a href="{{ repo.url }}">
-          <h4>{{ repo.name }}</h4>
-          <p>{{ repo.description }}</p>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+  <h3 id="repositories">General Purpose</h3>
+  {% include technology/repo_sublist.html repos=site.general_repos %}
 </section>
 {% endif %}
 
-{% if site.support_repos %}
-<section id="support-repositories">
-  <h3 id="repositories">Support</h3>
-  <ul class="repo-list group">
-    <li class="list-icon">
-      <img src="../assets/img/octocat.png" width="25px" alt="">
-    </li>
-    {% for repo in site.support_repos %}
-      <li>
-        <a href="{{ repo.url }}">
-          <h4>{{ repo.name }}</h4>
-          <p>{{ repo.description }}</p>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
+{% if site.agency_repos %}
+<section id="agency-repositories">
+  <h3 id="repositories">Agency-Specific Repos</h3>
+  {% for agency in site.agency_repos %}
+    <h4>{{agency.name}}</h4>
+    {% include technology/repo_sublist.html repos=agency.repos %}
+  {% endfor %}
 </section>
 {% endif %}
-
-{% if site.cfpb_repos %}
-<section id="cfpb-repositories">
-  <h3 id="repositories">CFPB-Specific</h3>
-  <ul class="repo-list group">
-    <li class="list-icon">
-      <img src="../assets/img/octocat.png" width="25px" alt="">
-    </li>
-    {% for repo in site.cfpb_repos %}
-      <li>
-        <a href="{{ repo.url }}">
-          <h4>{{ repo.name }}</h4>
-          <p>{{ repo.description }}</p>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-</section>
-{% endif %}
-

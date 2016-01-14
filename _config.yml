@@ -42,31 +42,98 @@ navigation:
   internal: true
 
 
-# Repo list
-# List repos that you would like to appear on the homepage here
-repos:
-- name: regulations-parser
-  description: Parse regulations
-  url: https://github.com/cfpb/regulations-parser
-- name: regulations-core
-  description: Regulations API
-  url: https://github.com/cfpb/regulations-core
-- name: regulations-site
-  description: Display the regulations
-  url: https://github.com/cfpb/regulations-site
+general_repos:
+  - name: regulations-parser
+    url: https://github.com/18F/regulations-parser
+    short: Parse regulations
+    long: >
+      The parser effectively converts print-centric documents from the Federal
+      Register, Government Printing Office, etc., pulls out semantic meaning
+      from them (e.g. paragraph structures, citations, definitions), and
+      writes those structures to a data store. The parser also contains tools
+      to help developers debug this process.
+  - name: regulations-core
+    url: https://github.com/18F/regulations-core
+    short: Regulations API
+    long: The store for the parsed regulatory data.
+  - name: regulations-site
+    url: https://github.com/18F/regulations-site
+    short: Display the regulations
+    long: >
+      An intuitive, responsive UI for viewing the regulations. It combines all
+      of the parsed data into an interface, providing in-line access to
+      definitions, citations, external material and more. This is the primary
+      use case for the regulatory data.
+  - name: fr-notices
+    url: https://github.com/eregs/fr-notices
+    short: Edited source XML
+    long: >
+      Often, source files will need to be massaged and modified to fit the
+      parser's limited understanding. This repository is a canonical source
+      for these edits, across all agencies, so that developers remain in sync.
+  - name: eRegulations
+    url: https://github.com/eregs/eRegulations
+    short: Documentation
+    long: The content for these HTML pages.
 
-support_repos:
-- name: regulations-bootstrap
-  description: Bootstrap eRegulations
-  url: https://github.com/cfpb/regulations-bootstrap
-
-cfpb_repos:
-- name: regulations-stub
-  description: Parsed CFPB regulations
-  url: https://github.com/cfpb/regulations-stub
-- name: fr-notices
-  description: XML for CFPB regulations
-  url: https://github.com/cfpb/fr-notices
+agency_repos:
+  - name: Consumer Financial Protection Bureau
+    repos:
+    - name: regulations-parser
+      url: https://github.com/cfpb/regulations-parser
+      short: Parse regulations
+      long: >
+        The parser effectively converts print-centric documents from the Federal
+        Register, Government Printing Office, etc., pulls out semantic meaning
+        from them (e.g. paragraph structures, citations, definitions), and
+        writes those structures to a data store. The parser also contains tools
+        to help developers debug this process.
+    - name: regulations-core
+      url: https://github.com/cfpb/regulations-core
+      short: Regulations API
+      long: The store for the parsed regulatory data.
+    - name: regulations-site
+      url: https://github.com/cfpb/regulations-site
+      short: Display the regulations
+      long: >
+        An intuitive, responsive UI for viewing the regulations. It combines all
+        of the parsed data into an interface, providing in-line access to
+        definitions, citations, external material and more. This is the primary
+        use case for the regulatory data.
+    - name: regulations-bootstrap
+      url: https://github.com/cfpb/regulations-bootstrap
+      short: Vagrant for quick setup
+      long: >
+        Vagrant files for quickly setting up a virtual machine in preparation
+        for working with CFPB eRegs repositories.
+    - name: regulations-schema
+      url: https://github.com/cfpb/regulations-schema
+      short: Regulation XML schema
+      long: >
+        An experimental XML schema for defining regulations. Regulations in this
+        format could then be maintained by only editing a single XML file,
+        rather than worrying about external sources of data. Currently,
+        CFPB-centric.
+    - name: regulations-xml-parser
+      url: https://github.com/cfpb/regulations-xml-parser
+      short: Schema -> JSON for regulations
+      long: >
+        A companion to regulations-schema which takes XML following that
+        schema and converts it into the format accepted by regulations-core.
+    - name: regulations-stub
+      url: https://github.com/cfpb/regulations-stub
+      short: Parsed CFPB regulations
+      long: >
+        A cached set of CFPB regulations as JSON files, ready for importing
+        into regulations-core.
+  - name: Bureau of Alcohol, Tobacco, Firearms and Explosives
+    repos:
+    - name: atf-eregs
+      url: https://github.com/18F/atf-eregs
+      short: ATF UI Elements
+      long: >
+        Static assets, deployment configuration, and UI plugins specific to
+        ATF's instance of eRegulations.
 
 # Style Variables
 brand_color: "#2cb34a"

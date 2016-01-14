@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Technology
-subtemplates: [architecture, stack, repos, getting-started]
+subtemplates: [architecture, stack, repos]
 ---
 # Technology
 
