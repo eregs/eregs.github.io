@@ -15,7 +15,7 @@ generally prefer the 18F repositories.
 
 {% if site.agency_repos %}
 <section id="agency-repositories">
-  <h3 id="repositories">Agency-Specific Repos</h3>
+  <h3 id="repositories">Agency-Centric</h3>
   {% for agency in site.agency_repos %}
     <h4>{{agency.name}}</h4>
     {% include technology/repo_sublist.html repos=agency.repos %}
