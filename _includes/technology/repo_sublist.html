@@ -1,0 +1,10 @@
+{% comment %}Display a list of repos{% endcomment %}
+<ul>
+  {% for repo in include.repos %}
+    <li>
+      <a href="{{ repo.url }}">{{ repo.name }}</a>
+      <span>({{repo.short}})</span>
+      <p>{{ repo.long }}</p>
+    </li>
+  {% endfor %}
+</ul>
