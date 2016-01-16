@@ -31,6 +31,9 @@ navigation:
 - text: Technology
   url: 'technology/'
   internal: true
+- text: Introduction to regulations
+  url: 'introduction/'
+  internal: true
 
 
 general_repos:
