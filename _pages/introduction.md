@@ -13,7 +13,7 @@ The [National Archives has a summary](https://www.archives.gov/about/regulations
 * <a href="#what-are-regulations">What are regulations and where do they live?</a>
 * <a href="#how-regulations-change">How regulations change (through “rules”)</a>
 * <a href="#structure">The structure of a regulation</a>
-* <a href="#definitions">Definitions of terms helpful for understanding eRegulations</a>
+* <a href="#definitions">Definitions of terms as used in eRegulations</a>
 
 ## <a name="what-are-regulations"></a>What are regulations and where do they live?
 
@@ -37,7 +37,7 @@ Proposed changes and final changes effective some time in the future are publish
 
 ## <a name="how-regulations-change"></a>How regulations change (through “rules”)
 
-For most changes (“rules”), an agency must propose the alterations and request the general public (including special interest groups, industry, etc.) provide feedback. The proposal includes a specific date by which all feedback must be received, though this can sometimes be modified. After the agency receives feedback, the agency must address each unique comment and draft a “final” rule which incorporates this feedback. The final rule is given an effective date, at which point the changes are applied to the regulation. This process is referred to as “notice and comment”. [A chart of the regulatory process.](http://www.reginfo.gov/public/reginfo/Regmap/index.jsp)
+For most changes (“rules”), an agency must propose the alterations and request the general public (including special interest groups, industry, etc.) provide feedback. The proposal includes a specific date by which all feedback must be received, though this can sometimes be modified. After the agency receives feedback, the agency must address each unique comment; they may draft a “final” rule which incorporates this feedback, make a different proposal, or decide to not follow up on the proposal. If they produce a final rule, they give it an effective date, at which point the changes are applied to the regulation. This process is referred to as “notice and comment”. [A chart of the regulatory process.](http://www.reginfo.gov/public/reginfo/Regmap/index.jsp)
 
 There are a few different types of Federal Register Notices that can be part of a notice and comment process:
 
@@ -57,9 +57,9 @@ This is the final draft of a change to a regulation. This notice also starts wit
 
 This is the same as a final rule except that it does not have to follow a proposed rule. This is uncommon. An example of this kind of rule: when CFPB was created, it reissued all of the regulations it was given authority over in full as interim final rules. There was no need for a notice and comment period.
 
-## <a name="structure"</a>The structure of a regulation
+## <a name="structure"></a>The structure of a regulation
 
-Each regulation is part of the careful hierarchical structure of the Code of Federal Regulations. Here's a guide from the top down.
+Each regulation is part of the careful hierarchical structure of the Code of Federal Regulations, and eRegulations reflects this structure. Here's a guide from the top down.
 
 ### The Code of Federal Regulations contains “titles”
 
@@ -81,10 +81,13 @@ Sections are then broken into paragraphs and subparagraphs, most often using the
 
 That list of divisions is the “standard” format, but even if sections don't use that specific structure, they'll use some type of outline structure. There are technically rules that govern this structure, but since these regulations are written by humans, the type of outline structure can vary.
 
-## <a name="definitions"></a>Definitions of terms helpful for understanding eRegulations
+## <a name="definitions"></a>Definitions of terms as used in eRegulations
+
+While reading about or using eRegulations, you'll run into a number of terms that have specific meanings when dealing with regulations (and some that are specific to eRegulations). Here's what they mean.
 
 * **Act:** An act of Congress, i.e. the law. Acts generally provide authority to agencies to create and enforce regulations, giving the general outline of what needs to be enforced but allowing agencies to define the peculiarities.
-Agency: An arm of the federal government, which (for our purposes) defines and enforces regulations.
+
+* **Agency:** An arm of the federal government, which (for our purposes) defines and enforces regulations.
 
 * **Annual Edition:** Regulations are published in their entirety once a year in this edition. If there are multiple effective changes within a single year, individuals must pay attention and combine the relevant rules. Annual editions are not all published (as one might expect) once a year, across all agencies. Instead, the regulations are grouped into four chunks and released in January, April, July, and October.
 
@@ -94,11 +97,11 @@ Agency: An arm of the federal government, which (for our purposes) defines and e
 
 * **Definitions:** Most regulations will hinge on the meaning of certain terms, hence those terms are defined explicitly. These terms are also often “scoped” in the sense that the term only applies for a specific portion of the regulation. We make these terms clickable, to provide context when the terms are used throughout the regulation.
 
-* **Interpretation:** This is a component of a regulation which appears to be specific to CFPB (and perhaps other financial regulators). These regulations include a final appendix (“Supplement I”) which provides further analysis, explanation, and examples of the regulation and its appendices. We’ve displayed these in-line with the text they are describing.
+* **Interpretation:** Agencies may provide various kinds of interpretive materials along with their regulations, such as rulings or advisory opinions. An "official interpretation" is a component of a regulation which appears to be specific to CFPB (and perhaps other financial regulators). Those regulations include a final appendix (“Supplement I”) which provides further analysis, explanation, and examples of the regulation and its appendices. We display these in-line with the text they are describing.
 
 * **Keyterm:** This somewhat nebulous term refers to the highlighted first sentence or phrase in some paragraphs of the regulation. The idea is that this phrase categorizes the paragraph and all of its sub-paragraphs with some sort of meaning.
 
-* **Notice:** As we use the term, a notice is a proper superset of rules -- all rules (proposal or otherwise) are notices, but notices might include other messages which do not change the regulation. All notices have a “document number” which is their unique identifier.
+* **Notice:** As we use the term, a notice is a proper superset of rules — all rules (proposal or otherwise) are notices, but notices might include other messages which do not change the regulation. All notices have a “document number” which is their unique identifier.
 
 * **Notice and Comment:** This term refers to a period of time in the regulatory process when an agency proposes a new rule (i.e. change) and is seeking feedback from the public. It is a frequent pain point for agencies, which must receive and address all comments.
 
@@ -114,4 +117,4 @@ Agency: An arm of the federal government, which (for our purposes) defines and e
 
 * **Section-by-section Analyses (SxS):** When rules describe changes to a regulation, they often contain an analysis of changes to specific sections, paragraphs, and the like. These analyses are captured and presented by eRegulations as they may be useful when trying to understand the context of a particular paragraph. These may be a CFPB-specific idiom, but it is currently unclear.
 
-* **Version:** This is a term that lawyers will not use, but which makes discussing eRegulations much easier. As we track how the regulation changes over time, we generate different versions of it. These versions are given unique identifiers (usually corresponding to the document number of the final rule which caused the change) and associated with specific effective dates.
+* **Version:** As we track how the regulation changes over time, we generate different versions of it. These versions are given unique identifiers (usually corresponding to the document number of the final rule which caused the change) and associated with specific effective dates.
