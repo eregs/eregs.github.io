@@ -1,6 +1,8 @@
 ## Features
 
-Some of the main features of the tool are:
+eRegulations includes an illustrated user guide that explains its features — see this live on [the CFPB eRegulations "About" page](http://www.consumerfinance.gov/eregulations/about) and [the ATF eRegulations "About" page](https://atf-eregs.apps.cloud.gov/about).
+
+In more detail, some of the main features of the tool are:
 
 - #### NAVIGABILITY.
 While regulations are traditionally represented as monolithic blocks of text, they contain a great deal of embedded structure. eRegulations teases out that structure and uses it to present the text in a clean, readable form.
