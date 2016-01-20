@@ -8,6 +8,8 @@ If you're interested in learning about eRegulations or contributing to its devel
 
 The [National Archives provides a brief overview of regulations](https://www.archives.gov/about/regulations/) which is helpful for quick context. There are detailed explanations of aspects of regulations on multiple websites, including [Regulations.gov](http://www.regulations.gov/#!home), [Reginfo.gov](http://www.reginfo.gov/public/), and various agency websites; here's the story all put together in the context of eRegulations (with links to those resources) to help you get started.
 
+We wrote this as an informal guide; if this information conflicts with explanations on linked websites such as Regulations.gov and Reginfo.gov, please consider them more authoritative.
+
 **Table of contents**
 
 * <a href="#what-are-regulations">What are regulations and where do they live?</a>
