@@ -85,7 +85,7 @@ That list of divisions is the “standard” format, but even if sections don't 
 
 ## <a name="definitions"></a>Definitions of terms used in eRegulations
 
-While reading about or using eRegulations, you'll run into a number of terms that have specific meanings when dealing with regulations, along with some terms that are specific to eRegulations. Here's what they mean in the context of eRegulations. (To learn more about regulatory terms, [Regulations.gov offers a glossary of terms used on that site](http://www.regulations.gov/#!glossary).)
+While reading about or using eRegulations, you'll run into a number of terms that have specific meanings when dealing with regulations, along with some terms that are specific to eRegulations. Here's what they mean in the context of eRegulations. (To learn more about terms related to regulations, [Regulations.gov offers a glossary of terms used on that site](http://www.regulations.gov/#!glossary).)
 
 * **Act:** An act of Congress, i.e. the law. Acts generally provide authority to agencies to create and enforce regulations, giving the general outline of what needs to be enforced but allowing agencies to define the peculiarities.
 
