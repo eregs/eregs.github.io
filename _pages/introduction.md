@@ -6,20 +6,20 @@ title: Introduction to regulations
 
 If you're interested in learning about eRegulations or contributing to its development, it helps to have some background in what regulations are and how they fit into the legal landscape of the United States.
 
-The [National Archives has a summary](https://www.archives.gov/about/regulations/) and [Reginfo.gov provides an explanation of the regulatory process](http://www.reginfo.gov/public/jsp/Utilities/faq.jsp), and here's the story all put together to help you get started.
+The [National Archives provides a brief overview of regulations](https://www.archives.gov/about/regulations/) which is helpful for quick context. There are detailed explanations of aspects of regulations on multiple websites, including [Regulations.gov](http://www.regulations.gov/#!home), [Reginfo.gov](http://www.reginfo.gov/public/), and various agency websites; here's the story all put together in the context of eRegulations (with links to those resources) to help you get started.
 
 **Table of contents**
 
 * <a href="#what-are-regulations">What are regulations and where do they live?</a>
 * <a href="#how-regulations-change">How regulations change (through “rules”)</a>
 * <a href="#structure">The structure of a regulation</a>
-* <a href="#definitions">Definitions of terms as used in eRegulations</a>
+* <a href="#definitions">Definitions of terms used in eRegulations</a>
 
 ## <a name="what-are-regulations"></a>What are regulations and where do they live?
 
 ### Where regulations come from
 
-When Congress creates a law, it’s a big deal — a tremendous amount of effort goes into each new act of Congress. As a result, Congress usually describes the big picture of the law and gives authority to the relevant federal agencies to deal with the specifics. The agencies describe these details in regulations, which have the force and effect of law.
+When Congress creates a law, it’s a big deal — a tremendous amount of effort goes into each new act of Congress. As a result, Congress usually describes the big picture of the law and gives authority to the relevant federal agencies to deal with the specifics. The agencies describe these details in regulations, which have the force and effect of law. ([The first two answers in this Reginfo.gov FAQ provide details about this process.](http://www.reginfo.gov/public/jsp/Utilities/faq.jsp))
 
 How this gets written down: Congress writes “Acts” or “Statutes” which are cataloged in the [U.S. Code](https://www.gpo.gov/fdsys/browse/collectionUScode.action?collectionCode=USCODE) (USC). Each act or statute can give authority to specific federal regulatory agencies to write regulations. When the agencies write regulations, they are cataloged separately in the [Code of Federal Regulations](https://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR) (CFR).
 
@@ -37,7 +37,9 @@ Proposed changes and final changes effective some time in the future are publish
 
 ## <a name="how-regulations-change"></a>How regulations change (through “rules”)
 
-For most changes (“rules”), an agency must propose the alterations and request the general public (including special interest groups, industry, etc.) provide feedback. The proposal includes a specific date by which all feedback must be received, though this can sometimes be modified. After the agency receives feedback, the agency must address each unique comment; they may draft a “final” rule which incorporates this feedback, make a different proposal, or decide to not follow up on the proposal. If they produce a final rule, they give it an effective date, at which point the changes are applied to the regulation. This process is referred to as “notice and comment”. [A chart of the regulatory process.](http://www.reginfo.gov/public/reginfo/Regmap/index.jsp)
+For most changes (“rules”), an agency must propose the alterations and request the general public (including special interest groups, industry, etc.) provide feedback. The proposal includes a specific date by which all feedback must be received, though this can sometimes be modified. After the agency receives feedback, the agency must review each unique comment; they may draft a “final” rule which incorporates this feedback, make a different proposal, or withdraw the proposal. If they produce a final rule, they give it an effective date, at which point the changes are applied to the regulation. This process is referred to as “notice and comment”.
+
+Regulations.gov provides [a summary of the steps of the regulatory (rulemaking) process](http://www.regulations.gov/#!home;tab=learn), the Department of Transportation provides [a more in-depth overview of the process](https://www.transportation.gov/regulations/rulemaking-process), and Reginfo.gov provides [a detailed chart of the process (the "Reg Map")](http://www.reginfo.gov/public/reginfo/Regmap/index.jsp).
 
 There are a few different types of Federal Register Notices that can be part of a notice and comment process:
 
@@ -59,7 +61,7 @@ This is the same as a final rule except that it does not have to follow a propos
 
 ## <a name="structure"></a>The structure of a regulation
 
-Each regulation is part of the careful hierarchical structure of the Code of Federal Regulations, and eRegulations reflects this structure. Here's a guide from the top down.
+Each regulation is part of the careful hierarchical structure of the [Code of Federal Regulations](https://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR), and eRegulations reflects this structure. Here's a guide from the top down.
 
 ### The Code of Federal Regulations contains “titles”
 
@@ -81,9 +83,9 @@ Sections are then broken into paragraphs and subparagraphs, most often using the
 
 That list of divisions is the “standard” format, but even if sections don't use that specific structure, they'll use some type of outline structure. There are technically rules that govern this structure, but since these regulations are written by humans, the type of outline structure can vary.
 
-## <a name="definitions"></a>Definitions of terms as used in eRegulations
+## <a name="definitions"></a>Definitions of terms used in eRegulations
 
-While reading about or using eRegulations, you'll run into a number of terms that have specific meanings when dealing with regulations (and some that are specific to eRegulations). Here's what they mean.
+While reading about or using eRegulations, you'll run into a number of terms that have specific meanings when dealing with regulations, along with some terms that are specific to eRegulations. Here's what they mean in the context of eRegulations. (To learn more about regulatory terms, [Regulations.gov offers a glossary of terms used on that site](http://www.regulations.gov/#!glossary).)
 
 * **Act:** An act of Congress, i.e. the law. Acts generally provide authority to agencies to create and enforce regulations, giving the general outline of what needs to be enforced but allowing agencies to define the peculiarities.
 
@@ -117,4 +119,4 @@ While reading about or using eRegulations, you'll run into a number of terms tha
 
 * **Section-by-section Analyses (SxS):** When rules describe changes to a regulation, they often contain an analysis of changes to specific sections, paragraphs, and the like. These analyses are captured and presented by eRegulations as they may be useful when trying to understand the context of a particular paragraph. These may be a CFPB-specific idiom, but it is currently unclear.
 
-* **Version:** As we track how the regulation changes over time, we generate different versions of it. These versions are given unique identifiers (usually corresponding to the document number of the final rule which caused the change) and associated with specific effective dates.
+* **Version:** eRegulations can present older and newer versions of a regulation for your comparison, to help you track how a regulation changes over time. These versions are given unique identifiers (usually corresponding to the document number of the final rule which caused the change) and associated with specific effective dates.
