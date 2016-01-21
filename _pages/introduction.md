@@ -31,11 +31,11 @@ Federal agencies are responsible for maintaining and enforcing their own regulat
 
 ### Where regulations are published
 
-The Government Printing Office publishes an official printed paper Code of Federal Regulations and [official digital Code of Federal Regulations (on FDsys)](https://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR) once a year.
+Agencies publish proposed changes and final changes (effective some time in the future) in the [Federal Register](https://www.federalregister.gov/), which is the “Daily Journal of the United States Government”.
 
-Throughout the year, GPO publishes changes to regulations through [e-CFR (Electronic Code of Federal Regulations)](http://www.ecfr.gov/), though this is not legally binding.
+Throughout the year, Government Printing Office updates the unofficial [e-CFR (Electronic Code of Federal Regulations)](http://www.ecfr.gov/) almost every day to integrate each of those final changes when they take effect, so that you can easily read up-to-date regulations in a central place. The e-CFR is not an official legal edition of these regulations; it is not legally binding.
 
-Proposed changes and final changes effective some time in the future are published in the [Federal Register](https://www.federalregister.gov/) (the “Daily Journal of the United States Government”).
+Each regulation gets an official update in the Code of Federal Regulations once a year. The Government Printing Office puts together all of the final changes and publishes them in the official Code of Federal Regulations, in both printed paper books and the [official digital Code of Federal Regulations (on FDsys)](https://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR). (Although instead of publishing the entire updated Code of Regulations on one big day every year, the GPO splits the Code of Federal Regulations into four chunks and updates one of them each quarter of the year.)
 
 ## <a name="how-regulations-change"></a>How regulations change (through “rules”)
 
@@ -45,17 +45,17 @@ Regulations.gov provides [a summary of the steps of the regulatory (rulemaking) 
 
 There are a few different types of Federal Register Notices that can be part of a notice and comment process:
 
-### Advanced Notice of Proposed Rulemaking (ANPR)
+### Advance Notice of Proposed Rulemaking (ANPR)
 
-This doesn’t happen as often as the following notices. This usually happens before any change is made to a regulation. An ANPR is put out when an agency wants to check if an idea for future regulation change is something the public may want. It is meant to get early feedback from the public, and the issues in this notice may not move forward to the next notice depending on the public’s response.
+This doesn’t happen as often as the following notices. An ANPR is put out when an agency wants to check if an idea for future regulation change is something the public may want. It is meant to get early feedback from the public, and the issues in this notice may not move forward to the next notice depending on the public’s response.
 
 ### Notice of Proposed Rulemaking (NPR) or Proposed Rule
 
-This is the initial draft of a change to a regulation. The notice starts with a “Preamble” which can contain the reasons for the regulation change, some section-by-section analysis, a cost analysis, and other general explanations. The Preamble is followed by the changes to the regulation. This notice only shows the actual changed parts of the regulation, not the new full text of the regulation.
+This is the initial draft of a change to a regulation. The notice starts with a “Preamble” which can contain the reasons for the regulation change, some section-by-section analysis, a cost analysis, and other general explanations. The Preamble is followed by the proposed changes to the regulation. The notice does not contain the complete text of the new regulation, so readers need to find and compare the previous version of the regulation to make sense of the changes.
 
 ### Final Rule
 
-This is the final draft of a change to a regulation. This notice also starts with a Preamble and is followed by the changed parts of the regulation (not in context of the full text).
+This is the final draft of a change to a regulation. This notice also starts with a Preamble, which addresses the comments received during the notice and comment period. This Preamble is followed by the changed parts of the regulation (not in context of the full text).
 
 ### Interim Final Rule
 
@@ -67,7 +67,7 @@ Each regulation is part of the careful hierarchical structure of the [Code of Fe
 
 ### The Code of Federal Regulations contains “titles”
 
-The Code of Federal Regulations is broken into numeric “titles”, which each describe one subject area (such as “Domestic Security” or “Banks and Banking”). Agencies will most likely only cover one title. (1-50 is usually written in Roman numerals.)
+The Code of Federal Regulations is broken into 50 numbered “titles”, which each describe one broad subject area. For example, Title 6 is “Domestic Security” and Title 12 is “Banks and Banking”. Each agency usually only covers one title. The title numbers are often written with Roman numerals (as in "Title XXVII").
 
 ### Each title contains “parts” (“regulations”)
 
@@ -77,11 +77,11 @@ CFR titles are broken into “parts”, which eRegulations consistently defines 
 
 A CFR part (or “regulation”) is further broken down into (often) Subparts, Subject Groups, Appendices, and Interpretations. Each of these components is optional, with Subparts and Appendices being lettered, and Interpretations technically being “Supplement I” within the Appendix.
 
-Subparts and Subject Groups are further broken into “sections”. Regulations without explicit subparts or subject groups will still have “sections.” These can be considered chapters in the book that is the regulation. The format for this is `XX CFR XXX.XsectionX`.
+Subparts and Subject Groups are further broken into “sections”. Regulations without explicit subparts or subject groups will still have “sections.” The format for this is `XX CFR XXX.XsectionX`.
 
-### Each section contains paragraphs and subparagraphs
+### Many sections contain paragraphs and subparagraphs
 
-Sections are then broken into paragraphs and subparagraphs, most often using these divisions: `(a)(1)(i)(A)(1)(i)(A)`, though this is not always consistent. We try to address every paragraph uniquely.
+Sections are often broken into paragraphs and subparagraphs, most often using these divisions: `(a)(1)(i)(A)(1)(i)(A)`, though this is not always consistent. We try to address every paragraph uniquely.
 
 That list of divisions is the “standard” format, but even if sections don't use that specific structure, they'll use some type of outline structure. There are technically rules that govern this structure, but since these regulations are written by humans, the type of outline structure can vary.
 
