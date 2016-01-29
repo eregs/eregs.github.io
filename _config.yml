@@ -22,13 +22,13 @@ baseurl: '/eRegulations'
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Live Instances
-  url: '#live-instances'
+- text: Overview and live instances
+  url: ''
   internal: true
 - text: Features
-  url: '#features'
+  url: 'features/'
   internal: true
-- text: Technology
+- text: Code and documentation
   url: 'technology/'
   internal: true
 - text: Introduction to regulations
@@ -132,7 +132,7 @@ agency_repos:
 # Style Variables
 brand_color: "#2cb34a"
 
-# eRegs instances in the while
+# eRegs instances in the wild
 instances:
 - url: http://www.consumerfinance.gov/eregulations/
   title: 12

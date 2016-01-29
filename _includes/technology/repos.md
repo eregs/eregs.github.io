@@ -1,10 +1,6 @@
 ## Repositories
 
-There are many individual repositories that make up eRegulations; this is
-complicated by having two primary forks maintained by CFPB and 18F
-respectively. While these forks will ultimately be merged and maintenance
-shared between multiple agencies, those interested in using eRegs now should
-generally prefer the 18F repositories.
+There are many repositories that make up eRegulations: the project is split into several components, and currently CFPB and 18F maintain two separate forks of **regulations-parser**, **regulations-core**, and **regulations-site**. 18F and CFPB plan to eventually merge these forks into shared components with maintenance shared between multiple agencies. For now, in most cases people interested in using eRegulations should use the 18F repositories (listed under "General Purpose").
 
 {% if site.general_repos %}
 <section id="main-repositories">
