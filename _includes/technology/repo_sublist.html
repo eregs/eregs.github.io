@@ -2,7 +2,7 @@
 <ul>
   {% for repo in include.repos %}
     <li>
-      <a href="{{ repo.url }}">{{ repo.name }}</a>
+      <strong><a href="{{ repo.url }}">{{ repo.name }}</a></strong>
       <span>({{repo.short}})</span>
       <p>{{ repo.long }}</p>
     </li>
