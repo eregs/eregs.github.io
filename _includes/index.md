@@ -14,4 +14,4 @@ We invite contributions to any part of the application, from people inside and o
 
 ## Introduction to regulations
 
-If you’re interested in learning about eRegulations or contributing to its development, it helps to have some background in what regulations are and how they fit into the legal landscape of the United States. [We wrote an informal guide for you.](introduction/)
+If you’re interested in learning about eRegulations or contributing to its development, it helps to have some background in what regulations are and how they fit into the legal landscape of the United States. [We wrote an informal guide.](introduction/)
