@@ -1,7 +1,7 @@
 # Base configuration
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 
 collections:
   pages:
@@ -30,6 +30,9 @@ navigation:
   internal: true
 - text: Code and documentation
   url: 'technology/'
+  internal: true
+- text: History, present, and future
+  url: 'story/'
   internal: true
 - text: Introduction to regulations
   url: 'introduction/'
