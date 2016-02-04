@@ -86,7 +86,7 @@ Sections are often broken into paragraphs and subparagraphs, most often using th
 
 That list of divisions is the “standard” format, but even if sections don't use that specific structure, they'll use some type of outline structure. There are technically rules that govern this structure, but since these regulations are written by humans, the type of outline structure can vary.
 
-## <a name="sites"></a>Government web services related to regulations
+## <a name="services"></a>Government web services related to regulations
 
 To help illustrate the available resources for regulations, here's a non-exhaustive list of federal web services related to regulations:
 
