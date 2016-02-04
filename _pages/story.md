@@ -19,18 +19,23 @@ A few news clippings that discuss the motivations for eRegulations:
 
 ## Scope of eRegulations
 
-eRegulations only covers Code of Federal Regulations parts right now. But useful interfaces to regulations are only one part of the complex information architecture needs of regulatory agencies.
+eRegulations only covers Code of Federal Regulations parts right now. But each agency's regulations are only one piece of their regulatory material.
 
-The future of eRegulations could better integrate related material such as Federal Register notices and more. Each agency has its own collection of supplemental material around its regulations - for example:
+Each agency creates a lot of related documents that aren't included in the Code of Federal Regulations: both authoritative material (such as advisory opinions, rulings, and Federal Register notice preambles) and less-formal explanations that help people learn what they need to know (such as guidebooks and FAQs).
 
-* CFPB has "section-by-section analysis" provided as appendices to its regulations (within the CFR).
-* ATF has "rulings" and "open letters" clarifying aspects of its regulations, as well as plain-language Q&As, newsletters, and guidebooks that help explain its regulations.
-* FEC has "advisory opinions" and "Matters Under Review" clarifying aspects of its regulations.
+eRegulations could better integrate with that related material (as well as the relevant statutes in the United States Code) to help users understand regulations.
 
+A challenge is that each agency has its own collection of materials related to its regulations - with some types of documents in common with other agencies and some unique to one agency. Some agencies use different names for similar types of documents.
+
+A few examples:
+
+* [CFPB](http://www.consumerfinance.gov/regulations/) includes "official interpretations" in its regulations (as an appendix to the main part of the regulation, all published together in the Code of Federal Regulations). CFPB also includes "section-by-section analysis" in its Federal Register notices. CFPB's eRegulations displays both of those types of material to help readers understand regulations.
+* [ATF](https://www.atf.gov/rules-and-regulations) publishes "rulings" and "open letters" that clarify aspects of its regulations. It also publishes plain-language Q&As, newsletters, and guidebooks to help explain its regulations. ATF's eRegulations does not integrate those types of material, but it could in the future.
+* [FEC](http://www.fec.gov/law/law.shtml) publishes "advisory opinions" and "Matters Under Review" that clarify aspects of its regulations, among other kinds of material.
 
 ## How it works
 
-In short: the parser eats XML from many different sources and writes that to an API. The UI then reads from that API.
+In short: the parser eats XML from many different sources and writes that to an API. The UI then reads from that API. (The parser assumes XML; it used to allow plain text but that code hasn't been maintained, and it doesn't handle PDFs.)
 
 There is currently one UI for eRegulations, but the intent is for the parser to be usable outside of this one interface into regulations, and for the API to be usable outside of this one interface.
 
