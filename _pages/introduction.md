@@ -15,6 +15,7 @@ We wrote this as an informal guide; if this information conflicts with explanati
 * <a href="#what-are-regulations">What are regulations and where do they live?</a>
 * <a href="#how-regulations-change">How regulations change (through “rules”)</a>
 * <a href="#structure">The structure of a regulation</a>
+* <a href="#services">Government web services related to regulations</a>
 * <a href="#definitions">Definitions of terms used in eRegulations</a>
 
 ## <a name="what-are-regulations"></a>What are regulations and where do they live?
@@ -33,7 +34,7 @@ Federal agencies are responsible for maintaining and enforcing their own regulat
 
 Agencies publish proposed changes and final changes (effective some time in the future) in the [Federal Register](https://www.federalregister.gov/), which is the “Daily Journal of the United States Government”.
 
-Throughout the year, Government Printing Office updates the unofficial [e-CFR (Electronic Code of Federal Regulations)](http://www.ecfr.gov/) almost every day to integrate each of those final changes when they take effect, so that you can easily read up-to-date regulations in a central place. The e-CFR is not an official legal edition of these regulations; it is not legally binding.
+Throughout the year, the Government Printing Office updates the unofficial [e-CFR (Electronic Code of Federal Regulations)](http://www.ecfr.gov/) almost every day to integrate each of those final changes when they take effect, so that you can easily read up-to-date regulations in a central place. The e-CFR is not an official legal edition of these regulations; it is not legally binding.
 
 Each regulation gets an official update in the Code of Federal Regulations once a year. The Government Printing Office puts together all of the final changes and publishes them in the official Code of Federal Regulations, in both printed paper books and the [official digital Code of Federal Regulations (on FDsys)](https://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR). (Although instead of publishing the entire updated Code of Regulations on one big day every year, the GPO splits the Code of Federal Regulations into four chunks and updates one of them each quarter of the year.)
 
@@ -84,6 +85,17 @@ Subparts and Subject Groups are further broken into “sections”. Regulations 
 Sections are often broken into paragraphs and subparagraphs, most often using these divisions: `(a)(1)(i)(A)(1)(i)(A)`, though this is not always consistent. We try to address every paragraph uniquely.
 
 That list of divisions is the “standard” format, but even if sections don't use that specific structure, they'll use some type of outline structure. There are technically rules that govern this structure, but since these regulations are written by humans, the type of outline structure can vary.
+
+## <a name="services"></a>Government web services related to regulations
+
+To help illustrate the available resources for regulations, here's a non-exhaustive list of federal web services related to regulations:
+
+* [ecfr.gov](http://www.ecfr.gov/) — The Electronic Code of Federal Regulations (explained in ["Where regulations are published"](#what-are-regulations)), maintained by the National Archives and Records Administration's Office of the Federal Register (OFR) and the Government Publishing Office (GPO).
+* [FDsys on gpo.gov](https://www.gpo.gov/fdsys/search/home.action) — The Government Publishing Office (GPO) Federal Digital System (FDsys) publishes official digital versions of the [Code of Federal Regulations](https://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR) and the [Federal Register](https://www.gpo.gov/fdsys/browse/collection.action?collectionCode=FR).
+* [federalregister.gov](https://www.federalregister.gov/) — An <a href="https://www.federalregister.gov/learn/user-information">unofficial web display of the Federal Register</a>, posting proposed rules, final rules, public notices, and Presidential actions. This site invites the public to comment on proposed rules via its integration with [regulations.gov](http://www.regulations.gov/#!home).
+* [Office of the Federal Register on archives.gov](https://www.archives.gov/federal-register/cfr/) — The National Archives and Records Administration's (NARA) Office of the Federal Register (OFR) has a website that includes [information about the Code of Federal Regulations](https://www.archives.gov/federal-register/cfr/) and related topics.
+* [reginfo.gov](http://www.reginfo.gov/public/) — An information site managed by the Office of Information and Regulatory Affairs (OIRA), which is a federal office that helps keep the regulation system in order.
+* [regulations.gov](http://www.regulations.gov/#!home) — A centralized place for the public to find and comment on proposed regulations from many participating agencies, managed by the Environmental Protection Agency ([see its FAQs](http://www.regulations.gov/#!faqs)).
 
 ## <a name="definitions"></a>Definitions of terms used in eRegulations
 
