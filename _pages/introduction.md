@@ -64,7 +64,11 @@ This is the same as a final rule except that it does not have to follow a propos
 
 ## <a name="structure"></a>The structure of a regulation
 
-Each regulation is part of the careful hierarchical structure of the [Code of Federal Regulations](https://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR), and eRegulations reflects this structure. Here's a guide from the top down.
+Each regulation is part of the careful hierarchical structure of the [Code of Federal Regulations](https://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR), and eRegulations reflects this structure:
+
+![Structure of a Regulation]({{ site.url }}/assets/img/regulation.svg){:height="500px" width="750px"}
+
+Here's a descriptive guide from the top down.
 
 ### The Code of Federal Regulations contains “titles”
 
