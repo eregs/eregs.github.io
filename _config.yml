@@ -31,6 +31,9 @@ navigation:
 - text: Code and documentation
   url: 'technology/'
   internal: true
+- text: History, present, and future
+  url: 'story/'
+  internal: true
 - text: Introduction to regulations
   url: 'introduction/'
   internal: true
