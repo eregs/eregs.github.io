@@ -5,7 +5,7 @@ eRegulations is a web-based tool that makes regulations easier to find, read
 and understand with features such as inline official interpretations,
 highlighted defined terms, and a revision comparison view. This repository
 contains companion documentation for the project and can be viewed at
-<http://eregs.github.io/eRegulations>
+<http://eregs.github.io/>
 
 ## Editing the documentation
 

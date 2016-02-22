@@ -17,7 +17,7 @@ subtitle: Making regulations easily readable, accessible, and understandable.
 # When working locally use jekyll serve --baseurl '' so that you can view everything at localhost:4000
 # See http://jekyllrb.com/docs/github-pages/ for more info
 #baseurl: ''
-baseurl: '/eRegulations'
+baseurl: ''
 
 # Navigation
 # List links that should appear in the site sidebar here
@@ -68,8 +68,8 @@ general_repos:
       Often, source files will need to be massaged and modified to fit the
       parser's limited understanding. This repository is a canonical source
       for these edits, across all agencies, so that developers remain in sync.
-  - name: eRegulations
-    url: https://github.com/eregs/eRegulations
+  - name: eregs.github.io
+    url: https://github.com/eregs/eregs.github.io
     short: Documentation
     long: The content for these HTML pages.
 
