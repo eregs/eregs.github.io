@@ -10,7 +10,7 @@ title: Theming an instance
 * [How to theme an eRegulations site](#how-to-theme-an-eregulations-site)
 * [Potential ways to improve the theming layer](#potential-ways-to-improve-the-theming-layer)
 
-# How to theme an eRegulations site
+# How to theme an eRegulations instance
 
 ## Overview
 
@@ -19,6 +19,10 @@ The [**regulations-site**](https://github.com/18F/regulations-site) repository c
 If you’re building an adaptation of eRegulations (such as for a specific agency), you’ll probably want to customize that theme to fit the agency’s needs. This page explains eRegulations theming from the Less/CSS perspective.
 
 The base theme is heavily parameterized to allow for customization. It’s designed to be customized through the use of less variables (`variables.less`) and less mixins (`custom.less`), particularly font mixins.
+
+This is designed so that you can build "overriding" files in an agency-specific wrapper repository, instead of directly modifying the base files in **regulations-site**. For example, see [these .less files in **atf-eregs**](https://github.com/18F/atf-eregs/tree/master/atf_eregs/static/regulations/css/less).
+
+See also: [this explanation of customization for ATF eRegulations](https://atf-eregs.readthedocs.org/en/latest/customization.html#style-sheets).
 
 ### Font mixins
 
