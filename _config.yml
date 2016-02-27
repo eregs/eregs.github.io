@@ -31,6 +31,9 @@ navigation:
 - text: Code and documentation
   url: 'technology/'
   internal: true
+- text: Theming an instance
+  url: 'theming/'
+  internal: true
 - text: History, present, and future
   url: 'story/'
   internal: true
