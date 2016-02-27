@@ -22,7 +22,7 @@ The base theme is heavily parameterized to allow for customization. It’s desig
 
 This is designed so that you can build "overriding" files in an agency-specific wrapper repository, instead of directly modifying the base files in **regulations-site**. For example, see [these .less files in **atf-eregs**](https://github.com/18F/atf-eregs/tree/master/atf_eregs/static/regulations/css/less).
 
-See also: [this explanation of customization for ATF eRegulations](https://atf-eregs.readthedocs.org/en/latest/customization.html#style-sheets).
+See also: [this explanation of customization for ATF eRegulations](https://atf-eregs.readthedocs.org/en/latest/customization.html).
 
 ### Font mixins
 
