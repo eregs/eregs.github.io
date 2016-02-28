@@ -64,11 +64,7 @@ This is the same as a final rule except that it does not have to follow a propos
 
 ## <a name="structure"></a>The structure of a regulation
 
-Each regulation is part of the careful hierarchical structure of the [Code of Federal Regulations](https://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR), and eRegulations reflects this structure:
-
-![Structure of a Regulation]({{ site.url }}/assets/img/regulation.svg){:height="500px" width="750px"}
-
-Here's a descriptive guide from the top down.
+Each regulation is part of the careful hierarchical structure of the [Code of Federal Regulations](https://www.gpo.gov/fdsys/browse/collectionCfr.action?collectionCode=CFR), and eRegulations reflects this structure. Here's a descriptive guide from the top down.
 
 ### The Code of Federal Regulations contains “titles”
 
@@ -89,6 +85,12 @@ Subparts and Subject Groups are further broken into “sections”. Regulations 
 Sections are often broken into paragraphs and subparagraphs, most often using these divisions: `(a)(1)(i)(A)(1)(i)(A)`, though this is not always consistent. We try to address every paragraph uniquely.
 
 That list of divisions is the “standard” format, but even if sections don't use that specific structure, they'll use some type of outline structure. There are technically rules that govern this structure, but since these regulations are written by humans, the type of outline structure can vary.
+
+### Illustration
+
+Here's an illustration of this structure, with [Title 40, Part 262](http://www.ecfr.gov/cgi-bin/text-idx?tpl=/ecfrbrowse/Title40/40cfr262_main_02.tpl) as an example:
+
+![Structure of a Regulation]({{ site.url }}/assets/img/regulation.svg){:height="500px" width="750px"}
 
 ## <a name="services"></a>Government web services related to regulations
 

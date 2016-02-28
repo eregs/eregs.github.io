@@ -34,7 +34,7 @@ A challenge is that each agency has its own collection of materials related to i
 A few examples:
 
 * [CFPB](http://www.consumerfinance.gov/regulations/) includes "official interpretations" in its regulations (as an appendix to the main part of the regulation, all published together in the Code of Federal Regulations). CFPB also includes "section-by-section analysis" in its Federal Register notices. CFPB's eRegulations displays both of those types of material to help readers understand regulations.
-* [ATF](https://www.atf.gov/rules-and-regulations) publishes "rulings" and "open letters" that clarify aspects of its regulations. It also publishes plain-language Q&As, newsletters, and guidebooks to help explain its regulations. ATF's eRegulations does not integrate those types of material, but it could in the future.
+* [ATF](https://www.atf.gov/rules-and-regulations) publishes "rulings" and "open letters" that clarify aspects of its regulations. It also publishes plain-language Q&As, newsletters, and guidebooks to help explain its regulations. ATF's eRegulations only has a small amount of cross-linking with related resources, and it could do a lot more in the future.
 * [FEC](http://www.fec.gov/law/law.shtml) publishes "advisory opinions" and "Matters Under Review" that clarify aspects of its regulations, among other kinds of material.
 
 ## How it works
@@ -53,11 +53,12 @@ Everyone is free to use and adapt eRegulations as they wish. We encourage you to
 
 ### Working with the shared codebase and building agency-specific features
 
-The procedure if you develop a feature that would be more platform-oriented: **regulations-core**, **regulations-site**, and **regulations-parser** are the core platform; they're shared code. We don't have a very good "raw" eRegulations right now, though we're slowly moving there. "Raw" eRegulations is basically CFPB eRegulations right now.
+If you develop features or improvements that would benefit other agencies who use eRegulations, it makes sense to contribute them to the core cross-agency shared code libraries, which are [**regulations-core**](https://github.com/18F/regulations-core), [**regulations-site**](https://github.com/18F/regulations-site), and [**regulations-parser**](https://github.com/18F/regulations-parser). We don't have a very good "raw" eRegulations right now, though we're slowly moving there. "Raw" eRegulations is basically CFPB eRegulations right now.
 
-At this point, you would probably never run **regulations-site** or **regulations-core** on their own. Instead, they're libraries - you can modify them as libraries. Effectively, you point the wrapper to local checkouts.
+At this point, you would probably never run **regulations-site** or **regulations-core** on their own. Instead, they're libraries, and you can modify them as libraries. Effectively, you point a wrapper to local checkouts. For an example of a wrapper, see [**atf-eregs**](https://github.com/18F/atf-eregs).
 
-In general we are not extending the core repo further when we make changes to an agency-specific setup.
+Adding agency-specific styles, markup, and even certain types of features (specific to those agencies) should not require modifications to the core repositories. Instead, those can go in the agency-specific wrapper.
+
 
 ### Share or fork the codebase? Specific features or generalizable features?
 
@@ -68,3 +69,5 @@ It's important to plan to use the shared codebase and to build features that are
 The work to make it generalizable is good for each agency. Each agency benefits from the generalizing work of previous agencies, and all clients will themselves benefit when, inevitably, they produce regulations in the future with quirks that will be easier to handle within an extensible/generalizable system.
 
 We are not sure yet how long-term cross-agency maintenance will work. We'll figure it out together.
+
+Currently the shared libraries (**regulations-core**, **regulations-site**, and **regulations-parser**) are in the 18F GitHub organization, but [there is a discussion about moving them to this `eregs` organization](https://github.com/eregs/eregs.github.io/issues/14) to share governance more effectively.
