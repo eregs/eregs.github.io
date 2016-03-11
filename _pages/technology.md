@@ -6,7 +6,15 @@ subtemplates: [architecture, stack, repos]
 # Code and documentation
 
 
-## How it works
+**Table of contents**
+
+* [How eRegulations works](#how-eregulations-works)
+* [Repositories](#repositories)
+  * [The main body of eRegulations (not agency-specific)](#main-repositories)
+  * [Agency-centric components](#agency-repositories)
+* [Open source and contributing](#open-source-and-contributing)
+
+## How eRegulations works
 
 {% for subtemplate in page.subtemplates %}
   {% capture subtemplate_file %}technology/{{subtemplate}}.md{% endcapture %}
