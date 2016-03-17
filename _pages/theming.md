@@ -5,24 +5,71 @@ title: Theming an instance
 
 # Theming an instance
 
+If you’re building an adaptation of eRegulations (such as for a specific agency), you’ll probably want to customize that instance to fit the agency’s needs. Here's how to customize the templates, styles, and supporting content.
+
 **Table of contents**
 
-* [How to theme an eRegulations site](#how-to-theme-an-eregulations-site)
-* [Potential ways to improve the theming layer](#potential-ways-to-improve-the-theming-layer)
+* [Overview](#overview)
+* [How to customize the frontend in general](#how-to-customize-the-frontend-in-general)
+* [How to customize the Less/CSS styles](#how-to-customize-the-lesscss-styles)
+* [Potential ways to improve the Less/CSS theming layer](#potential-ways-to-improve-the-lesscss-theming-layer)
 
-# How to theme an eRegulations instance
-
-## Overview
+# Overview
 
 The [**regulations-site**](https://github.com/18F/regulations-site) repository contains a base theme that provides a relatively neutral-looking default eRegulations user interface. This is implemented by a set of [Django templates](https://docs.djangoproject.com/en/1.9/topics/templates/#the-django-template-language) styled using the [Less](http://lesscss.org/) stylesheet language.
 
-If you’re building an adaptation of eRegulations (such as for a specific agency), you’ll probably want to customize that theme to fit the agency’s needs. This page explains eRegulations theming from the Less/CSS perspective.
+All of this is designed so that you can build "overriding" files in an agency-specific wrapper repository, instead of directly modifying the base files in **regulations-site**.
+
+For the big picture, see [this explanation of customizing ATF eRegulations](https://atf-eregs.readthedocs.org/en/latest/customization.html).
+
+# How to customize the frontend in general
+
+For context on how **regulations-site** works, check out [that readme](https://github.com/18F/regulations-site). Then here's how to start customizing it.
+
+### System-wide styles
+
+The `compile_frontend` command (i.e. `python manage.py compile_frontend`)
+uses a variant of Django's `collectstatic` to combine static assets between
+the base application (regulations-site) and any custom Django application you
+develop. It is designed as a simple file **override** scheme — create an
+identically named file in your `static/regulations/` directory and it will
+replace the file in the base application. In this way, you can modify
+stylesheets, images, etc. when building the frontend.
+
+There is also a key extension point for stylesheets:
+`static/regulations/css/less/module/custom.less` exists to be overridden. Use
+it to declare your own custom style sheet modules for additional structure.
+
+The `compile_frontend` command generates output indicating which files are
+being overridden.
+
+### Individual paragraphs
+
+The templates used to generate paragraphs can be replaced selectively, a
+useful technique if you want to emphasize a particular paragraph or add links
+to external sources that don't exist in the regulation proper. Note that this
+mechanism is intended for one-offs; consider the method of modifying the data
+structures instead if you find yourself using it often.
+
+To use this override mechanism, create a `templates/regulations/custom_nodes`
+directory in your Django application if it doesn't already exist. Inside that
+folder, create files corresponding to node labels, e.g. `478-103-b.html`.
+These templates will be used **in place** of the `tree-with-wrapper.html`
+template, so be sure to provide the functionality already present there.
+Should you need to use this functionality only on specific versions, your
+template can make use of the `version` context variable.
+
+### Django templates tip
+
+You might find [django-overextends](https://github.com/stephenmcd/django-overextends) helpful; see [this usage in ATF eRegulations for an example](https://github.com/18F/atf-eregs/blob/master/atf_eregs/templates/regulations/generic_landing.html#L1).
+
+# How to customize the Less/CSS styles
+
+This section explains eRegulations theming from the Less/CSS perspective.
 
 The base theme is heavily parameterized to allow for customization. It’s designed to be customized through the use of less variables (`variables.less`) and less mixins (`custom.less`), particularly font mixins.
 
 This is designed so that you can build "overriding" files in an agency-specific wrapper repository, instead of directly modifying the base files in **regulations-site**. For example, see [these .less files in **atf-eregs**](https://github.com/18F/atf-eregs/tree/master/atf_eregs/static/regulations/css/less).
-
-See also: [this explanation of customization for ATF eRegulations](https://atf-eregs.readthedocs.org/en/latest/customization.html).
 
 ### Font mixins
 
@@ -124,7 +171,7 @@ That example produces this CSS:
 
 With `extend`, the resulting font-size would be different as the extended attributes are grouped at a higher level.
 
-# Potential ways to improve the theming layer
+# Potential ways to improve the Less/CSS theming layer
 
 Theming eRegulations is a work in progress! Here are a few ways that contributors could make it better.
 
