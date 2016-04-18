@@ -53,7 +53,7 @@ Everyone is free to use and adapt eRegulations as they wish. We encourage you to
 
 ### Working with the shared codebase and building agency-specific features
 
-If you develop features or improvements that would benefit other agencies who use eRegulations, it makes sense to contribute them to the core cross-agency shared code libraries, which are [**regulations-core**](https://github.com/18F/regulations-core), [**regulations-site**](https://github.com/18F/regulations-site), and [**regulations-parser**](https://github.com/18F/regulations-parser). We don't have a very good "raw" eRegulations right now, though we're slowly moving there. "Raw" eRegulations is basically CFPB eRegulations right now.
+If you develop features or improvements that would benefit other agencies who use eRegulations, it makes sense to contribute them to the core cross-agency shared code libraries, which are [**regulations-core**](https://github.com/eregs/regulations-core), [**regulations-site**](https://github.com/eregs/regulations-site), and [**regulations-parser**](https://github.com/eregs/regulations-parser). We don't have a very good "raw" eRegulations right now, though we're slowly moving there. "Raw" eRegulations is basically CFPB eRegulations right now.
 
 At this point, you would probably never run **regulations-site** or **regulations-core** on their own. Instead, they're libraries, and you can modify them as libraries. Effectively, you point a wrapper to local checkouts. For an example of a wrapper, see [**atf-eregs**](https://github.com/18F/atf-eregs).
 
@@ -69,5 +69,3 @@ It's important to plan to use the shared codebase and to build features that are
 The work to make it generalizable is good for each agency. Each agency benefits from the generalizing work of previous agencies, and all clients will themselves benefit when, inevitably, they produce regulations in the future with quirks that will be easier to handle within an extensible/generalizable system.
 
 We are not sure yet how long-term cross-agency maintenance will work. We'll figure it out together.
-
-Currently the shared libraries (**regulations-core**, **regulations-site**, and **regulations-parser**) are in the 18F GitHub organization, but [there is a discussion about moving them to this `eregs` organization](https://github.com/eregs/eregs.github.io/issues/14) to share governance more effectively.

@@ -44,7 +44,7 @@ navigation:
 
 general_repos:
   - name: regulations-parser
-    url: https://github.com/18F/regulations-parser
+    url: https://github.com/eregs/regulations-parser
     short: Parse regulations
     long: >
       The parser effectively converts print-centric documents from the Federal
@@ -53,11 +53,11 @@ general_repos:
       writes those structures to a data store. The parser also contains tools
       to help developers debug this process.
   - name: regulations-core
-    url: https://github.com/18F/regulations-core
+    url: https://github.com/eregs/regulations-core
     short: Regulations API
     long: The store for the parsed regulatory data.
   - name: regulations-site
-    url: https://github.com/18F/regulations-site
+    url: https://github.com/eregs/regulations-site
     short: Display the regulations
     long: >
       An intuitive, responsive UI for viewing the regulations. It combines all

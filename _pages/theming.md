@@ -16,7 +16,7 @@ If you’re building an adaptation of eRegulations (such as for a specific agenc
 
 # Overview
 
-The [**regulations-site**](https://github.com/18F/regulations-site) repository contains a base theme that provides a relatively neutral-looking default eRegulations user interface. This is implemented by a set of [Django templates](https://docs.djangoproject.com/en/1.9/topics/templates/#the-django-template-language) styled using the [Less](http://lesscss.org/) stylesheet language.
+The [**regulations-site**](https://github.com/eregs/regulations-site) repository contains a base theme that provides a relatively neutral-looking default eRegulations user interface. This is implemented by a set of [Django templates](https://docs.djangoproject.com/en/1.9/topics/templates/#the-django-template-language) styled using the [Less](http://lesscss.org/) stylesheet language.
 
 All of this is designed so that you can build "overriding" files in an agency-specific wrapper repository, instead of directly modifying the base files in **regulations-site**.
 
@@ -24,7 +24,7 @@ For the big picture, see [this explanation of customizing ATF eRegulations](http
 
 # How to customize the frontend in general
 
-For context on how **regulations-site** works, check out [that readme](https://github.com/18F/regulations-site). Then here's how to start customizing it.
+For context on how **regulations-site** works, check out [that readme](https://github.com/eregs/regulations-site). Then here's how to start customizing it.
 
 ### System-wide styles
 
