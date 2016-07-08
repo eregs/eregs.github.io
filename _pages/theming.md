@@ -11,12 +11,12 @@ If you’re building an adaptation of eRegulations (such as for a specific agenc
 
 * [Overview](#overview)
 * [How to customize the frontend in general](#how-to-customize-the-frontend-in-general)
-* [How to customize the Less/CSS styles](#how-to-customize-the-lesscss-styles)
-* [Potential ways to improve the Less/CSS theming layer](#potential-ways-to-improve-the-lesscss-theming-layer)
+* [How to customize the Sass stylesheets](#how-to-customize-the-sass-stylesheets)
+* [Agency specific stylesheets](#agency-specific-stylesheets)
 
 # Overview
 
-The [**regulations-site**](https://github.com/eregs/regulations-site) repository contains a base theme that provides a relatively neutral-looking default eRegulations user interface. This is implemented by a set of [Django templates](https://docs.djangoproject.com/en/1.9/topics/templates/#the-django-template-language) styled using the [Less](http://lesscss.org/) stylesheet language.
+The [**regulations-site**](https://github.com/eregs/regulations-site) repository contains a base theme that provides a relatively neutral-looking default eRegulations user interface. This is implemented by a set of [Django templates](https://docs.djangoproject.com/en/1.9/topics/templates/#the-django-template-language) styled using the [Sass](http://sass-lang.com/) stylesheet language.
 
 All of this is designed so that you can build "overriding" files in an agency-specific wrapper repository, instead of directly modifying the base files in **regulations-site**.
 
@@ -35,10 +35,6 @@ develop. It is designed as a simple file **override** scheme — create an
 identically named file in your `static/regulations/` directory and it will
 replace the file in the base application. In this way, you can modify
 stylesheets, images, etc. when building the frontend.
-
-There is also a key extension point for stylesheets:
-`static/regulations/css/less/module/custom.less` exists to be overridden. Use
-it to declare your own custom style sheet modules for additional structure.
 
 The `compile_frontend` command generates output indicating which files are
 being overridden.
@@ -63,126 +59,46 @@ template can make use of the `version` context variable.
 
 You might find [django-overextends](https://github.com/stephenmcd/django-overextends) helpful; see [this usage in ATF eRegulations for an example](https://github.com/18F/atf-eregs/blob/master/atf_eregs/templates/regulations/generic_landing.html#L1).
 
-# How to customize the Less/CSS styles
+# How to customize the Sass stylesheets
 
-This section explains eRegulations theming from the Less/CSS perspective.
+This section explains eRegulations theming from the Sass/CSS perspective.
 
-The base theme is heavily parameterized to allow for customization. It’s designed to be customized through the use of less variables (`variables.less`) and less mixins (`custom.less`), particularly font mixins.
+The base theme is heavily parameterized to allow for customization. It’s designed to be customized through the use of sass variables (`_variables.scss`) and mixins (`_custom.scss`), particularly font mixins.
 
-This is designed so that you can build "overriding" files in an agency-specific wrapper repository, instead of directly modifying the base files in **regulations-site**. For example, see [these .less files in **atf-eregs**](https://github.com/18F/atf-eregs/tree/master/atf_eregs/static/regulations/css/less).
+This is designed so that you can build "overriding" files in an agency-specific wrapper repository, instead of directly modifying the base files in **regulations-site**. For an example (but using Less), see [these .less files in **atf-eregs**](https://github.com/18F/atf-eregs/tree/master/atf_eregs/static/regulations/css/less).
 
 ### Font mixins
 
-You can do most font theming by `extend`ing the basic font mixins to create specific formatting rules for different types of content. Here’s an example that declares a basic font and then creates a variation with a particular size and line height to use for a specific type of content within the theme:
+You can do most font theming by including the basic font mixins to create specific formatting rules for different types of content. Here’s an example that declares a basic font and then creates a variation with a particular size and line height to use for a specific type of content within the theme:
 
-``` less
-.font-regular {
-  font-family: 'Lato Regular', Arial, sans-serif;
+``` scss
+@mixin sans-font-regular {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-/* Regulation nav (drawer) font styles */
-.regulation-nav-item-font {
-    &:extend(.font-regular);
-    font-size: 1em;
-    line-height: 20px;
-}
-```
-
-That example produces this CSS:
-
-``` css
-.font-regular,
-.regulation-nav-item-font {
-  font-family: 'Lato Regular', Arial, sans-serif;
-}
-/* Regulation nav (drawer) font styles */
-.regulation-nav-item-font {
+@mixin regulation-nav-item-font {
+  @include sans-font-regular;
   font-size: 1em;
   line-height: 20px;
 }
 ```
 
-This approach allows for a lot of variation in typography without needing to create a lot of customization variables (i.e. `@regulation_nav_item_font_size`, etc) for one-off styling choices.
+This approach allows for a lot of variation in typography without needing to create a lot of customization variables (i.e. `$regulation_nav_item_font_size`, etc) for one-off styling choices.
 
-### Less `&:extend(.foo)` compared to `.foo`
+# Agency specific stylesheets
 
-Less mixins can reference other mixins in two ways: by either *extending* them or *including* them. These options are largely the same, but there are some differences. For example, you can replace `&:extend(.font-regular)` with `.font-regular` in the previous example, like this:
+Overriding base files in **regulations-site** is very simple. In the agency-specific repo, list overriding custom stylesheets in (`/css/scss/module/_custom.scss`):
 
-``` less
-font-regular {
-  font-family: 'Lato Regular', Arial, sans-serif;
-}
+``` sass
+// custom imports
+@import '../comment-custom';
+@import '../layout-custom';
 
-/* Regulation nav (drawer) font styles */
-.regulation-nav-item-font {
-    .font-regular;
-    font-size: 1em;
-    line-height: 20px;
-}
+// Custom Modules
+@import 'header-custom';
+@import 'note-custom';
 ```
 
-That new example produces this CSS:
-
-``` css
-.font-regular {
-  font-family: 'Lato Regular', Arial, sans-serif;
-}
-/* Regulation nav (drawer) font styles */
-.regulation-nav-item-font {
-  font-family: 'Lato Regular', Arial, sans-serif;
-  font-size: 1em;
-  line-height: 20px;
-}
-```
-
-The two options produce CSS with different structures — the earlier example is a little more compact. One important difference is that `.foo` will simply copy the `.foo` style attributes in place. This means that order does matter. Any attributes before the included mixin will get overridden by the same values in the mixin, such as `font-size` in the following example:
-
-``` less
-.font-regular {
-  font-family: 'Lato Regular', Arial, sans-serif;
-  font-size:1em;
-}
-
-/* Regulation nav (drawer) font styles */
-
-.regulation-nav-item-font {
-  font-size: 2em;
-  .font-regular;
-  line-height: 20px;
-}
-```
-
-That example produces this CSS:
-
-``` css
-.font-regular {
-  font-family: 'Lato Regular', Arial, sans-serif;
-  font-size: 1em;
-}
-
-/* Regulation nav (drawer) font styles */
-.regulation-nav-item-font {
-  font-size: 2em;
-  font-family: 'Lato Regular', Arial, sans-serif;
-  font-size: 1em;
-  line-height: 20px;
-}
-```
-
-With `extend`, the resulting font-size would be different as the extended attributes are grouped at a higher level.
-
-# Potential ways to improve the Less/CSS theming layer
-
-Theming eRegulations is a work in progress! Here are a few ways that contributors could make it better.
-
-## Start with a generalized theme
-
-The current theming efforts have taken the approach of trying to create a general theme based on specific implementations (CFPB / ATF). A lot could be gained by looking at regulations and identifying the different types of content contained within. This could be used to create a more defined type hierarchy which could be used to better define basic font styles, etc.  Along with a basic color palette, this would greatly alleviate a lot of the styling issues.
-
-## Refactor variable names to be more generic
-
-Many of the current Less variables were created with names that closely resembled their original values (i.e. `@bg_gray: #F7F8F9;`) rather than their intended usage (`@header_background: #F7F8F9;`).
-
-## Modularize existing .less files to be more granular 
-
-The existing Less files are not always named according to what styles they contain — for example, styling for tables is contained in `typography.less`.  Breaking these into smaller and more granular files will greatly aid in both identifying where various styles exist, and overriding those styles in extended themes.
+Additional variables will similarly reside in (`/css/scss/_variables.scss`)
