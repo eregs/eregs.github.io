@@ -137,12 +137,32 @@ agency_repos:
       long: >
         Static assets, deployment configuration, and UI plugins specific to
         ATF's instance of eRegulations.
+  - name: Federal Election Commission
+    repos:
+    - name: fec-eregs
+      url: https://github.com/18F/fec-eregs
+      short: FEC UI Elements
+      long: >
+        Static assets, deployment configuration, and UI plugins specific to
+        FEC's instance of eRegulations.
+  - name: Environmental Protection Agency
+    repos:
+    - name: epa-notice
+      url: https://github.com/18F/epa-notice
+      short: eManifest Pilot UI Elements
+      long: >
+        Pilot project highlighting eRegs' "Notice and Comment" feature.
+        Includes static assets, deployment configuration, and UI plugins
+        specific to EPA's eManifest ruling.
 
 # Style Variables
 brand_color: "#2cb34a"
 
 # eRegs instances in the wild
 instances:
+- url: https://beta.fec.gov/regulations/
+  title: 11
+  agency: Federal Election Commission
 - url: http://www.consumerfinance.gov/eregulations/
   title: 12
   agency: Consumer Financial Protection Bureau
