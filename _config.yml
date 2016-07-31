@@ -40,7 +40,7 @@ navigation:
 - text: Introduction to regulations
   url: 'introduction/'
   internal: true
-- text: Contact
+- text: Contact and governance
   url: 'contact/'
   internal: true
 
