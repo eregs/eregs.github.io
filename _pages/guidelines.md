@@ -231,5 +231,44 @@ We recommend avoiding formal or long words when easy or short ones will do. For 
 
 We lose reader’s trust and understanding if we write using long, confusing, “government” language. We also lower compliance with regulations and create more phone calls and inquiries to agency staff when readers cannot understand the regulation or legal guidance on first reading.
 
+### 5.2 It’s the law
+
+The [Plain Language Act of 2010](https://www.gpo.gov/fdsys/pkg/PLAW-111publ274/pdf/PLAW-111publ274.pdf) reads, with our emphasis, as follows:
+
+> (2) COVERED DOCUMENT. —The term ‘‘covered document’’—
+>
+> (A) means any document that—
+>
+> (i) is necessary for obtaining any Federal Government benefit or service or filing taxes;
+>
+> (ii) provides information about any Federal Government benefit or service; or
+>
+> (iii) **_explains to the public how to comply_** with a requirement the Federal Government administers or enforces;
+>
+> (B) includes (whether in paper or electronic form) a letter, publication, form, **_notice_**, or instruction; and
+>
+> (C) does not include a regulation.
+>
+> (3) PLAIN WRITING.—The term ‘‘plain writing’’ means writing that is clear, concise, well-organized, and follows other best practices appropriate to the subject or field and intended audience.”
+
+**This law applies to the preamble of Federal Register notices,** which explain how and why users need to comply with the new regulation. 
+
+Although this law does not apply directly to regulations, there are three Executive Orders ([E.O. 12866](http://www.plainlanguage.gov/populartopics/regulations/eo12866.pdf), [E.O. 12988](http://www.plainlanguage.gov/populartopics/regulations/eo12988.pdf), and [E.O. 13563](https://www.gpo.gov/fdsys/pkg/FR-2011-01-21/pdf/2011-1385.pdf)) that promote the use of plain language in regulations. And, the benefits of applying plain language to regulation text (as it changes over time) can be measured in industry compliance and agency staff time spent responding to inquiries. 
+
+If you are interested in the benefits and history of plain language guidence for regulations, plainlanguage.gov has a [good explanation](http://www.plainlanguage.gov/populartopics/regulations/index.cfm).
+
+### 5.3 A few tips and resources
+
+- [Part II Making Regulations Readable, Federal Register Document Drafting Handbook](http://www.archives.gov/federal-register/write/plain-language/readable-regulations.html) gives great advice (specific to regulation writing) on how to write clear rules. They have seven writing techniques that can improve the look and sound of a rule. Their top two pieces of advice are:
+  - Use questions in section headings
+  - Use "You" for whoever must comply
+
+- [Federal Plain Language Guidelines](http://www.plainlanguage.gov/howto/guidelines/FederalPLGuidelines/index.cfm) 
+
+- The Federal Register explains how to [rewrite a short rule, step by step](http://www.archives.gov/federal-register/write/plain-language/short-rule-1.html).
+
+- [18F’s Content Guide on Plain Language](https://pages.18f.gov/content-guide/plain-language/)
+
+- The average American reads at a 7th or 8th grade level. It can be hard to reach that level in a complicated document like a regulation, but it is good to aim for a level that most people can easily understand. Tools like the [Hemingway Editor](http://www.hemingwayapp.com/) or [Readability Score](https://readability-score.com/text/) allow users to check their text for the current reading level and pulls out particularly tricky sentences and words that are worth editing.
 
 
