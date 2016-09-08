@@ -219,6 +219,17 @@ When amending regulatory text in your proposed rule, **we recommend referencing 
 
 “10. As discussed in Section III.A.3 of this proposed rule, § 271.12 is amended by adding paragraph (k) to read as follows:”
 
+## 5. Benefits of plain language
+
+### 5.1 Everyone gains
+
+> _“Readable regulations help the public find requirements quickly and understand them easily. They increase compliance, strengthen enforcement, and decrease mistakes, frustration, phone calls, appeals, and distrust of government. **Everyone gains.**”_ - [Part II Making Regulations Readable, Federal Register Document Drafting Handbook](http://www.archives.gov/federal-register/write/plain-language/readable-regulations.html)
+
+U.S. government regulations are for everyone. The content they contain should therefore be as straightforward and clear as possible.
+
+We recommend avoiding formal or long words when easy or short ones will do. For example, use _buy_ instead of _purchase_, _help_ instead of _assist_, _about_ instead of _approximately_, and so on.
+
+We lose reader’s trust and understanding if we write using long, confusing, “government” language. We also lower compliance with regulations and create more phone calls and inquiries to agency staff when readers cannot understand the regulation or legal guidance on first reading.
 
 
 
