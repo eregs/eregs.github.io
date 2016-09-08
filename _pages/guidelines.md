@@ -129,6 +129,95 @@ Although the reader may be able to see which list belongs to which paragraph, th
 
 ![I. What is the agency proposing? Next paragraph, We are proposing a number of things: List starts (built into the outline structure), 1. First item, 2. Second item. Next paragraph, more discussion. Next paragraph, more discussion. Next paragraph, II. Next topic, here’s another list: List starts (built into the outline structure), 1. A different set of items, 2. Second item.](https://cloud.githubusercontent.com/assets/4267825/18357771/301a1fdc-75c0-11e6-820a-ca7f04714190.png)
 
+#### 3.3.3 Use headings wherever possible
+
+The [Federal Register Document Drafting Handbook](https://www.archives.gov/federal-register/write/handbook/chapters.html) recommends the use of consistent headings at any paragraph level. Headings are essential to a good structured regulation or preamble. Headings group and explain topics to the public, so they know which paragraphs to read, and which don’t apply to them. Headings are the reason eRegulations fosters quick skimming and navigation throughout the document. 
+
+The Federal Register handbook says, **“Present this information in language that the reader can easily understand, with descriptive headings to highlight and organize topics.”** Here is a good example of how this can work and look in the eRegulations platform:
+
+![Image of CFPB's well organized § 1005.7 in eRegulations showing headings at every level of the outline structure.](https://cloud.githubusercontent.com/assets/4267825/18362267/18dc82fc-75d3-11e6-934e-9e0b8f8c3103.png)
+
+We understand that it is not always feasible to have headings at every paragraph level. However, the Federal Register Handbook warns, **“Be consistent. If you use a heading for one paragraph, be sure to use a heading for all paragraphs at that level.”** Here are a few good examples of how this can work in the eRegulations platform:
+
+![Image of ATF's well organized § 555.26 in eRegulations showing headings consistently used at the (a) and (b) levels of the regulation.](https://cloud.githubusercontent.com/assets/4267825/18362339/5fc39250-75d3-11e6-9588-fa663870cd32.png)
+
+![Image of CFPB's definition of "Electronic fund transfer" showing headings at the (b) level and the (1) level but not the (i) level.](https://cloud.githubusercontent.com/assets/4267825/18362411/a049fb20-75d3-11e6-98d5-3e20daf414a2.png)
+
+#### 3.3.4 Preamble structure
+
+Federal Register notices do not have as defined of a structure as regulations. However, a good, and easily parsable, preamble in a Notice of Proposed Rulemaking should follow the outline structure and heading advice above. 
+
+Although preambles’ paragraphs are a little more freeform than regulation paragraphs, the structure is extremely important for the public to understand what the agency wants comments on. Here is a good example of how this may look in the eRegulations platform:
+
+![Image showing EPA's well organized preamble using headings at all three (III), (A), and (1) levels. ](https://cloud.githubusercontent.com/assets/4267825/18362615/7c2b5ba2-75d4-11e6-8083-9d014fe4bac3.png)
+
+This rule follows this pattern throughout. As you can see in the table of contents. This preamble uses questions as headers as much as possible. In addition, they separate background paragraphs from paragraphs about what the current rule is proposing.
+
+![Image of EPA's table of contents showing headings in the form of questions that organize each (A), (B), (C), level of the document. EPA continues to use question headings at many of the (1), (2), (3) next level down. ](https://cloud.githubusercontent.com/assets/4267825/18362749/04a4edc2-75d5-11e6-8744-5c9f5c872766.png)
+
+## 4. Changing regulation text
+
+### 4.1 Language describing the changes
+
+> _“For extensive changes, revise the text in full rather than prepare fragmentary amendments. The
+reader will then have the complete text of the amended unit.”_ - [Chapter 1.13 of the Federal Register Document Drafting Handbook](https://www.archives.gov/federal-register/write/handbook/chapter-1.pdf)
+
+The goal of the eRegulations comparison tool is to show how regulations have changed over time or how they will change in the future. We are able to automate this process by following the guidelines the Federal Register has laid out in their Handbook. However, computers have a harder time understanding certain commands than humans do. Following the below recommendations will save you development time for your eRegulations instance, and help give readers more context around the changes you are trying to make.
+
+#### 4.1.1 Revise the entire paragraph by default
+
+Even if you are only revising a word or a sentence, **we recommend revising the entire paragraph**. The computer will easily be able to compare the new text to the old text and show the differences in the eRegulations platform. Something like “change the fifth word in paragraph (b)” is hard for computers to get right, and may require manual intervention by an eRegulations developer. 
+
+Here is one example of a change that is hard to parse: "In § 478.72, add a new fifth sentence to read as follows:" At first glance, that seems like a simple instruction, but what does it actually mean? It could be saying, "insert this sentence and shift everything down,” or could it mean, "replace the fifth sentence"? It could also potentially mean, "add a new sentence to the end of the paragraph." Showing the full revised paragraph adds context for both the computer parsing your regulations and those of your readers who are looking at the printed rule. 
+
+#### 4.1.2 Using specific keywords
+
+The eRegulations platform follows the Federal Register’s [specific amendatory terms (Chapter 1.13)](https://www.archives.gov/federal-register/write/handbook/chapter-1.pdf) very closely to create the comparison between the old and new regulation. We recommend following those guidelines and using words like "revise", "add", "remove" as opposed to "change", "create", "delete", etc. when amending regulation text in a notice of proposed rulemaking.
+
+The following is a list of words from the Federal Register’s [guidelines](https://www.archives.gov/federal-register/write/handbook/chapter-1.pdf) that the eRegulations platform recognizes. The eRegulations platform does not currently recognize the words that are crossed out. If you use one of those words, it will require manual intervention by an eRegulations developer. 
+
+- Add, Added, Adding
+- Redesignate, Redesignated, Redesignating
+- Remove, Removed, Removing
+- ~~Republish~~, ~~Republished~~, ~~Republishing~~
+- Reserve, ~~Reserved~~, Reserving
+- Revise, Revised, Revising
+- ~~Withdraw~~, ~~Withdrawn~~, ~~Withdrawing~~
+
+#### 4.1.3 Examples 
+
+**Good:** “Section 262.24 is amended by revising paragraphs (c) and (g) to read as follows:”
+
+Why:
+- Context: “Section 262.24” is front and center
+- Which paragraphs are being modified is clear
+- Whole paragraphs are being modified
+- Use of “revising”
+
+**Good:** “Subpart FF is added to read as follows:”
+
+Why:
+- Clear which entity is being modified (here, a subpart)
+- Use of “added”
+
+**Bad:** “Change the fifth word in the eighth paragraph to ‘cromulent’”
+
+Why:
+- Context is difficult to determine — we need to count paragraphs manually
+- Counting words is even more of a challenge to handle automatically
+- Spelling out phrases leaves room for interpretation (think spacing, comma placement, etc.)
+
+### 4.2 Cross referencing from the preamble
+
+One of the biggest pain points for readers of a proposed rule is the connection points between where a change is discussed in the preamble and the actual new language. In our user research, many readers asked for this feature, but the eRegulations platform cannot make a connection automatically unless the proper citations are written into the document. 
+
+When discussing why your agency is making a specific change to a regulation, **we recommend referencing the citation that is being changed in addition to the numbered amendment in the notice**. For example: 
+
+ “The regulatory requirements for [this new item] are proposed at § 264.71(b) in amendment 10 of this proposed rule.”
+
+When amending regulatory text in your proposed rule, **we recommend referencing the section of the preamble where you discuss why you are making the change in your instructions**. For example:
+
+“10. As discussed in Section III.A.3 of this proposed rule, § 271.12 is amended by adding paragraph (k) to read as follows:”
 
 
 
