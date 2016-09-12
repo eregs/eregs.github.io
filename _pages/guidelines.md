@@ -94,8 +94,8 @@ eRegulations primarily focuses on parts, sections, and paragraphs. The Federal R
 > _[ Although it is possible to go past this point, the Federal Register recommends never going deeper than three levels. The Federal Register talks about [the benefits of limiting levels of paragraphs](http://www.archives.gov/federal-register/write/plain-language/readable-regulations.html). ]_
 
 - **Level 4:** (A), (B), (C), etc. § 303.1(a)(1)(i)(A)
-- **Level 5:** _(1)_, _(2)_, _(3)_, etc. § 303.1(a)(1)(i)(A)_(1)_
-- **Level 6:** _(i)_, _(ii)_, _(iii)_, etc. § 303.1(a)(1)(i)(A)_(1)(i)_
+- **Level 5:** _(1)_, _(2)_, _(3)_, etc. § 303.1(a)(1)(i)(A)_(1)_ _[italics]_
+- **Level 6:** _(i)_, _(ii)_, _(iii)_, etc. § 303.1(a)(1)(i)(A)_(1)(i)_ _[italics]_
 
 #### 3.3.2 Keep to the outline structure
 
