@@ -7,13 +7,13 @@ title: eRegulations’ guidelines to writing rules and regulations
 
 ## Overview and checklist
 
-- [ ] Follow the standard regulation outline structure.
-- [ ] Add any bulleted or numbered lists to the main outline structure of your document.
-- [ ] Use the built-in heading structure of your writing software in your document.
-- [ ] Use headings consistently and wherever possible.
-- [ ] Amend, revise, add to, or remove whole paragraphs.
-- [ ] Reference the preamble when creating an amendment and vice versa.
-- [ ] Write in language that the average member of the public will understand.
+- Follow the standard regulation outline structure.
+- Add any bulleted or numbered lists to the main outline structure of your document.
+- Use the built-in heading structure of your writing software in your document.
+- Use headings consistently and wherever possible.
+- Amend, revise, add to, or remove whole paragraphs.
+- Reference the preamble when creating an amendment and vice versa.
+- Write in language that the average member of the public will understand.
 
 #### TABLE OF CONTENTS
 
