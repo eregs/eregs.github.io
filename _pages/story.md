@@ -39,7 +39,7 @@ A few examples:
 
 ## How it works
 
-[Code and documentation](technology/) explains this in more detail, but in short: the parser eats XML from many different sources and writes that to an API. The UI then reads from that API.
+[Code and documentation](../technology/) explains this in more detail, but in short: the parser eats XML from many different sources and writes that to an API. The UI then reads from that API.
 
 There is currently one UI for eRegulations, but the intent is for the parser to be usable outside of this one interface into regulations, and for the API to be usable outside of this one interface.
 
