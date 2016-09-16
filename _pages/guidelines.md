@@ -15,10 +15,6 @@ title: eRegulations’ guidelines to writing rules and regulations
 - Reference the preamble when creating an amendment and vice versa.
 - Write in language that the average member of the public will understand.
 
-#### TABLE OF CONTENTS
-
-TBD
-
 ## 1. What is eRegulations?
 
 eRegulations is an open-source platform for making regulations easier to find, read, and understand. We digitally digest agency regulations and rules to present their built-in structure in a clean, readable form, including their changes over time. 
