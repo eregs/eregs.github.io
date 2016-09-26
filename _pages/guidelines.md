@@ -7,17 +7,13 @@ title: eRegulations’ guidelines to writing rules and regulations
 
 ## Overview and checklist
 
-- [ ] Follow the standard regulation outline structure.
-- [ ] Add any bulleted or numbered lists to the main outline structure of your document.
-- [ ] Use the built-in heading structure of your writing software in your document.
-- [ ] Use headings consistently and wherever possible.
-- [ ] Amend, revise, add to, or remove whole paragraphs.
-- [ ] Reference the preamble when creating an amendment and vice versa.
-- [ ] Write in language that the average member of the public will understand.
-
-#### TABLE OF CONTENTS
-
-TBD
+- Follow the standard regulation outline structure.
+- Add any bulleted or numbered lists to the main outline structure of your document.
+- Use the built-in heading structure of your writing software in your document.
+- Use headings consistently and wherever possible.
+- Amend, revise, add to, or remove whole paragraphs.
+- Reference the preamble when creating an amendment and vice versa.
+- Write in language that the average member of the public will understand.
 
 ## 1. What is eRegulations?
 
@@ -94,8 +90,8 @@ eRegulations primarily focuses on parts, sections, and paragraphs. The Federal R
 > _[ Although it is possible to go past this point, the Federal Register recommends never going deeper than three levels. The Federal Register talks about [the benefits of limiting levels of paragraphs](http://www.archives.gov/federal-register/write/plain-language/readable-regulations.html). ]_
 
 - **Level 4:** (A), (B), (C), etc. § 303.1(a)(1)(i)(A)
-- **Level 5:** _(1)_, _(2)_, _(3)_, etc. § 303.1(a)(1)(i)(A)_(1)_
-- **Level 6:** _(i)_, _(ii)_, _(iii)_, etc. § 303.1(a)(1)(i)(A)_(1)(i)_
+- **Level 5:** _(1)_, _(2)_, _(3)_, etc. § 303.1(a)(1)(i)(A)_(1)_ _[italics]_
+- **Level 6:** _(i)_, _(ii)_, _(iii)_, etc. § 303.1(a)(1)(i)(A)_(1)(i)_ _[italics]_
 
 #### 3.3.2 Keep to the outline structure
 
