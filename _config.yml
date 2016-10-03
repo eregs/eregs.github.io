@@ -40,6 +40,9 @@ navigation:
 - text: Introduction to regulations
   url: 'introduction/'
   internal: true
+- text: Guidelines
+  url: 'guidelines/'
+  internal: true
 - text: Contact
   url: 'contact/'
   internal: true
