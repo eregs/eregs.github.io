@@ -43,7 +43,7 @@ navigation:
 - text: Guidelines
   url: 'guidelines/'
   internal: true
-- text: Contact
+- text: Contact and governance
   url: 'contact/'
   internal: true
 
