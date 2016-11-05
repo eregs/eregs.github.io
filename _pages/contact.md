@@ -14,7 +14,7 @@ repository.
 
 That said, if you are interested in working with GSA's
 [18F](https://18f.gsa.gov) for hosting and customization, contact Will
-Sullivan at [will.sullivan@gsa.gov](mailto:will.sullivan@gsa.gov).
+Sullivan at [will.sullivan@gsa.gov](mailto:will.sullivan@gsa.gov) or [eregs@gsa.gov](mailto:eregs@gsa.gov).
 
 # Governance
 
@@ -31,7 +31,7 @@ we take a pragmatic approach.
 Day-to-day changes (largely backwards-compatible changes) should be
 reviewed by a second set of eyes before merging, but can be merged by anyone
 in the `eregs` organization. However, to keep the project moving forward, we
-allow the original submitter to merge their own submissions after two weeks if
+allow the original submitter to merge their own submissions after one week if
 there is no dissent.
 
 Larger policy changes and major code shifts warrant additional input from
@@ -48,7 +48,7 @@ judgement.
 In summary:
 
 * Day-to-day changes can be merged by anyone in the org
-* Day-to-day changes should not be merged by the submitter unless 2 weeks have
+* Day-to-day changes should not be merged by the submitter unless 1 week has
     passed
 * Policy changes should be open for discussion for at least 2 weeks
 * Policy changes can be vetoed by any org member
