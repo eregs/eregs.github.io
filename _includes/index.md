@@ -1,6 +1,6 @@
 ## Features
 
-See the illustrated guide to eRegulations features on [its CFPB "About" page](http://www.consumerfinance.gov/eregulations/about) and [its ATF "About" page](https://atf-eregs.apps.cloud.gov/about).
+See the illustrated guide to eRegulations features on [its CFPB "About" page](http://www.consumerfinance.gov/eregulations/about) and [its ATF "About" page](https://atf-eregs.app.cloud.gov/about).
 
 [More detail about the main features.](features/)
 

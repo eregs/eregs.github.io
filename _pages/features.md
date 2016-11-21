@@ -4,7 +4,7 @@ title: Features
 ---
 # Features
 
-eRegulations includes an illustrated user guide that explains its features — see this live on [the CFPB eRegulations "About" page](http://www.consumerfinance.gov/eregulations/about) and [the ATF eRegulations "About" page](https://atf-eregs.apps.cloud.gov/about).
+eRegulations includes an illustrated user guide that explains its features — see this live on [the CFPB eRegulations "About" page](http://www.consumerfinance.gov/eregulations/about) and [the ATF eRegulations "About" page](https://atf-eregs.app.cloud.gov/about).
 
 In more detail, some of the main features of the tool are:
 
