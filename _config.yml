@@ -169,6 +169,6 @@ instances:
 - url: http://www.consumerfinance.gov/eregulations/
   title: 12
   agency: Consumer Financial Protection Bureau
-- url: https://atf-eregs.apps.cloud.gov/
+- url: https://atf-eregs.app.cloud.gov/
   title: 27
   agency: Bureau of Alcohol, Tobacco, Firearms and Explosives
