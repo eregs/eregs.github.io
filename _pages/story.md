@@ -9,7 +9,7 @@ We would like other agencies, developers, and groups to use eRegulations and ada
 
 # History
 
-[CFPB released its initial version of eRegulations in 2013](http://www.consumerfinance.gov/blog/making-regulations-easier-to-use/), and [18F and ATF began reusing it for ATF in 2015](https://18f.gsa.gov/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/).
+[CFPB released its initial version of eRegulations in 2013](http://www.consumerfinance.gov/blog/making-regulations-easier-to-use/), and [18F and ATF began reusing it for ATF in 2015](https://18f.gsa.gov/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/). 
 
 A few news clippings that also discuss motivations for eRegulations:
 
@@ -24,6 +24,14 @@ A few news clippings that also discuss motivations for eRegulations:
 * [CFPB’s eRegulations tool promises to help users navigate federal regulations](https://www.acus.gov/newsroom/administrative-fix-blog/cfpb%E2%80%99s-eregulations-tool-promises-help-users-navigate-federal), October 2013, Administrative Conference of the US: "By opening eRegulations up to suggestions and improvements from the public, CFPB is allowing hands-on contribution to the debate over what sources are appropriately considered as a part of regulatory interpretation."
 
 * [One Federal Website That Works](http://www.bloombergview.com/articles/2013-10-29/one-federal-website-that-works), October 2013, BloombergView: "Texts of official government rules are notoriously difficult to follow. Multiple cross-references to other rules make it necessary to consult many different resources. Experienced rule readers can find official interpretations; others can’t. CFPB’s new user-friendly site makes all available information visible and easily accessible...By focusing on users’ experience of the site, they built something that works well for real people. And the platform will constantly be upgraded because it’s open source -- meaning that any agency or company can adopt it free and improve on it."
+
+A few places eRegulations has been presented to larger audiences:
+
+* Presented eRegulations Notice & Comment to [The White House Open Data Innovation Summit (WHODIS)](http://www.datafoundation.org/dt-2016), September 2016
+* Presented eRegulations Notice & Comment to The White House’s South by South Lawn City Summit, October 2016
+* Presented eRegulations Platform to the Canadian Community of Federal Regulators, October 2016
+* Presented eRegulations Notice & Comment at Gov Executive’s Festival on [Bold Friday](http://www.fedstival.com/#bold-friday), October 2016 
+* Presented eRegulations Notice & Comment to NARA Open Gov Working Group, November 2016
 
 # Present and future
 
