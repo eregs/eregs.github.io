@@ -131,13 +131,13 @@ The [Federal Register Document Drafting Handbook](https://www.archives.gov/feder
 
 The Federal Register handbook says, **“Present this information in language that the reader can easily understand, with descriptive headings to highlight and organize topics.”** Here is a good example of how this can work and look in the eRegulations platform:
 
-![Image of CFPB's well organized § 1005.7 in eRegulations showing headings at every level of the outline structure.](https://cloud.githubusercontent.com/assets/4267825/18362267/18dc82fc-75d3-11e6-934e-9e0b8f8c3103.png)
+![Image of CFPB's well organized § 1005.7 in eRegulations showing headings at every level of the outline structure.](https://cloud.githubusercontent.com/assets/4267825/21440918/70116df2-c863-11e6-8606-4b1bf39fa698.png)
 
 We understand that it is not always feasible to have headings at every paragraph level. However, the Federal Register Handbook warns, **“Be consistent. If you use a heading for one paragraph, be sure to use a heading for all paragraphs at that level.”** Here are a few good examples of how this can work in the eRegulations platform:
 
-![Image of ATF's well organized § 555.26 in eRegulations showing headings consistently used at the (a) and (b) levels of the regulation.](https://cloud.githubusercontent.com/assets/4267825/18362339/5fc39250-75d3-11e6-9588-fa663870cd32.png)
+![Image of ATF's well organized § 555.26 in eRegulations showing headings consistently used at the (a) and (b) levels of the regulation.](https://cloud.githubusercontent.com/assets/4267825/21440965/bf289c8a-c863-11e6-8621-0aaa80e3f228.png)
 
-![Image of CFPB's definition of "Electronic fund transfer" showing headings at the (b) level and the (1) level but not the (i) level.](https://cloud.githubusercontent.com/assets/4267825/18362411/a049fb20-75d3-11e6-98d5-3e20daf414a2.png)
+![Image of CFPB's definition of "Electronic fund transfer" showing headings at the (b) level and the (1) level but not the (i) level.](https://cloud.githubusercontent.com/assets/4267825/21440990/d5b23a06-c863-11e6-9613-1ad814acc4bf.png)
 
 #### 3.3.4 Preamble structure
 
@@ -145,7 +145,7 @@ Federal Register notices do not have as defined of a structure as regulations. H
 
 Although preambles’ paragraphs are a little more freeform than regulation paragraphs, the structure is extremely important for the public to understand what the agency wants comments on. Here is a good example of how this may look in the eRegulations platform:
 
-![Image showing EPA's well organized preamble using headings at all three (III), (A), and (1) levels. ](https://cloud.githubusercontent.com/assets/4267825/18362615/7c2b5ba2-75d4-11e6-8083-9d014fe4bac3.png)
+![Image showing EPA's well organized preamble using headings at all three (III), (A), and (1) levels. ](https://cloud.githubusercontent.com/assets/4267825/21441010/f248f57e-c863-11e6-84b1-4fd3c8712588.png)
 
 This rule follows this pattern throughout. As you can see in the table of contents. This preamble uses questions as headers as much as possible. In addition, they separate background paragraphs from paragraphs about what the current rule is proposing.
 
