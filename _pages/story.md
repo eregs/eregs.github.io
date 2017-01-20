@@ -14,8 +14,8 @@ We would like other agencies, developers, and groups to use eRegulations and ada
 A few news clippings that also discuss motivations for eRegulations:
 
 * [Federal Source Code Policy: Achieving Efficiency, Transparency, and Innovation through Reusable and Open Source Software](https://policy.cio.gov/source-code/), August 2016, The White House: “18F and the Consumer Financial Protection Bureau (CFPB): Both of these organizations have policies that establish a default position to publish source code that is custom-developed by or for the organization. For example, both organizations contribute to the source code for the eRegulations platform, a web-based interface for public viewing and commenting on proposed changes to Federal regulations. The eRegulations platform, which originated at CFPB, is being used by other Federal agencies and continues to be improved based on public feedback;”
- * [PDF Version of the Memorandum](https://www.whitehouse.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf)
- * [The People's Code](https://www.whitehouse.gov/blog/2016/08/08/peoples-code)
+ * [PDF Version of the Memorandum]({{ site.baseurl }}/assets/pdf/m_16_21.pdf#page=3)
+ * [The People's Code](https://web.archive.org/web/20161129165136/https://www.whitehouse.gov/blog/2016/08/08/peoples-code)
 
 * [EPA Tests Future of Public Comments](http://www.nextgov.com/cio-briefing/2016/07/epa-tests-future-public-comments/130284/), July 2016, Nextgov: “An Environmental Protection Agency pilot lets citizens comment on specific paragraphs of proposed rules instead of submitting them via email or in a separate text box. It might seem like a minor feature that should have existed before, but EPA is among the first to test drive it, according to a blog post from General Services Administration tech consultancy, 18F. Since last year, 18F and the Consumer Financial Protection Bureau have been gradually adding new features to the eRegulations system, an open source platform that hosts proposals online.”
 
@@ -27,11 +27,18 @@ A few news clippings that also discuss motivations for eRegulations:
 
 A few places eRegulations has been presented to larger audiences:
 
-* Presented eRegulations Notice & Comment to [The White House Open Data Innovation Summit (WHODIS)](http://www.datafoundation.org/dt-2016), September 2016
-* Presented eRegulations Notice & Comment to The White House’s South by South Lawn City Summit, October 2016
+* Presented eRegulations Notice &amp; Comment to [The White House Open Data Innovation Summit (WHODIS)](http://www.datafoundation.org/dt-2016), September 2016
+* Presented eRegulations Notice &amp; Comment to The White House’s South by South Lawn City Summit, October 2016
 * Presented eRegulations Platform to the Canadian Community of Federal Regulators, October 2016
-* Presented eRegulations Notice & Comment at Gov Executive’s Festival on [Bold Friday](http://www.fedstival.com/#bold-friday), October 2016 
-* Presented eRegulations Notice & Comment to NARA Open Gov Working Group, November 2016
+* Presented eRegulations Notice &amp; Comment at Gov Executive’s Festival on [Bold Friday](http://www.fedstival.com/#bold-friday), October 2016 
+* Presented eRegulations Notice &amp; Comment to NARA Open Gov Working Group, November 2016
+
+eRegs has also been cited in the White House' Open Government Action Plans:
+
+* The [second]({{ site.baseurl }}/assets/pdf/us_national_action_plan_6p.pdf#page=12) plan highlighted the initial launch of the eRegs platform at CFPB as a step towards expanding public participation in the development of regulations.
+* CFPB's and ATF's eRegs instances and Notice &amp; Comment tools were noted in the [self-assessment]({{ site.baseurl }}/assets/pdf/final_nap_2_self-assessment_060316.pdf#page=24) of that plan.
+* The [third]({{ site.baseurl }}/assets/pdf/final_us_open_government_national_action_plan_3_0.pdf#page=12) plan highlighted the potential of the Notice &amp; Comment pilot.
+* The [self-assessment]({{ site.baseurl }}/assets/pdf/nap_3_0_self-assessment_report_20160916.pdf#page=26) of that plan describes the eRegs projects at ATF &amp; FEC, along with the Notice &amp; Comment pilot.
 
 # Present and future
 
