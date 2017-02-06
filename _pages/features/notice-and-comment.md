@@ -15,6 +15,8 @@ Agency’s eManifest team.
  
 ## Sprint demo playlist (11 videos)
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/videoseries?list=PLd9b-GuOJ3nHSz3GVv0UsOtDCxlaVdtj2"
-frameborder="0" allowfullscreen></iframe>
+<div class="youtube-wrapper">
+  <iframe
+  src="https://www.youtube.com/embed/videoseries?list=PLd9b-GuOJ3nHSz3GVv0UsOtDCxlaVdtj2"
+  frameborder="0" allowfullscreen></iframe>
+</div>
