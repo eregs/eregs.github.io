@@ -1,0 +1,104 @@
+- title: Pre-planning
+  who: CFPB
+  when: "Prior to Feb '13"
+  what: |
+    Following the 2008-era financial collapse, the US Congress created the
+    Consumer Financial Protection Bureau and charged the agency with central
+    authority over a swath of previously disparate regulations. Recognizing
+    the opaque nature of these regulations and having the desire to iterate on
+    them rapidly, the bureau's regulatory team began contemplating tools to
+    aid their work.
+
+    In a similar time-frame, the bureau was also sketching out a technology
+    and innovation fellowship, in which graphic designers, software
+    developers, and user experience professionals would be brought in to the
+    bureau for a two-year stint. Technology projects to address regulatory
+    needs quickly rose towards the top of this list. To prepare, the
+    regulatory team met with the bureau's technologists and mapped out phases
+    around displaying regulations, connecting them to relevant documents,
+    following their history, allowing the public to comment, and tools to
+    improve the authoring experience.
+
+- title: Plaintext and initial data
+  who: CFPB
+  when: "Feb '13 to May '13"
+  what: |
+    TODO
+
+- title: Launching with regulation E
+  who: CFPB
+  when: "May '13 to Oct '13"
+  what: |
+    TODO
+
+- title: XML and diffs
+  who: CFPB
+  when: "Oct '13 to Jan '14"
+  what: |
+    TODO
+
+- title: Corner cases and regulation Z
+  who: CFPB
+  when: "Jan '14 to May '14"
+  what: |
+    TODO
+
+- title: Experiments with other agencies
+  who: GSA
+  when: "Jan '15 to Jul '15"
+  what: |
+    TODO
+
+- title: Additional regulations
+  who: CFPB
+  when: "Feb '15 to Jan '16"
+  what: |
+    TODO
+
+- title: Generalizing for ATF
+  who: ATF & GSA
+  when: "Aug '15 to Jan '16"
+  what: |
+    TODO
+
+- title: Additional documents
+  who: ATF & GSA
+  when: "Jan '16 to Mar '16"
+  what: |
+    TODO
+
+- title: XML authoring
+  who: CFPB
+  when: "Jan '16 to Jun '16"
+  what: |
+    TODO
+
+- title: Applying to FEC
+  who: FEC & GSA
+  when: "Feb '16 to ?"
+  what: |
+    TODO
+
+- title: Notice and comment
+  who: EPA & GSA
+  when: "?"
+  what: |
+    TODO
+
+- title: eRegs platform
+  who: GSA
+  when: "?"
+  what: |
+    TODO
+
+- title: Building from XML
+  who: CFPB
+  when: "?"
+  what: |
+    TODO
+
+- title: Applying to OMB
+  who: GSA & OMB
+  when: "?"
+  what: |
+    TODO
