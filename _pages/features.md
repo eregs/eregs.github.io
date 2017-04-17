@@ -39,8 +39,4 @@ The notices that compose a version of the regulation contain relevant analyses o
 The application design is responsive, adjusting to the device and screen size of the user.
 
 - #### Comment on Proposed Rules
-Proposed rules published by the
-[Federal Register](https://federalregister.gov) can be imported into our clean
-interface, including displaying "redline" diffs of the proposed CFR changes.
-Users can then comment on specific paragraphs and sections of the proposal.
-[Read More](/features/notice-and-comment)
+Proposed rules published by the [Federal Register](https://federalregister.gov) can be imported into our clean interface, including displaying "redline" diffs of the proposed CFR changes. Users can then comment on specific paragraphs and sections of the proposal. [Read More](/features/notice-and-comment)
