@@ -15,7 +15,7 @@ While regulations are traditionally represented as monolithic blocks of text, th
 Many regulation paragraphs have official interpretations that have traditionally been displayed at the end of the regulation, forcing readers to swap back and forth between the regulation content and interpretation at the end. eRegulations parses the interpretations for each paragraph, and displays them right under the paragraph/section being interpreted.
 
 - #### Definitions
-We highlight words that have been defined in the regulation, and the user can click on the word and see it's definition without scrolling to the part of the regulation that defines that word.
+We highlight words that have been defined in the regulation, and the user can click on the word and see its definition without scrolling to the part of the regulation that defines that word.
 
 - #### Internal citations
 The parser parses out all internal citations in the regulation, and we display them as clickable links allowing easy navigation within a regulation.
@@ -39,7 +39,7 @@ The notices that compose a version of the regulation contain relevant analyses o
 The application design is responsive, adjusting to the device and screen size of the user.
 
 - #### Comment on Proposed Rules
-Proposed rules published by the 
+Proposed rules published by the
 [Federal Register](https://federalregister.gov) can be imported into our clean
 interface, including displaying "redline" diffs of the proposed CFR changes.
 Users can then comment on specific paragraphs and sections of the proposal.
