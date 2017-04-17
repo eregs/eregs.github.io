@@ -5,15 +5,6 @@ subtemplates: [architecture, stack, repos]
 ---
 # Code and documentation
 
-
-**Table of contents**
-
-* [How eRegulations works](#how-eregulations-works)
-* [Repositories](#repositories)
-  * [The main body of eRegulations (not agency-specific)](#main-repositories)
-  * [Agency-centric components](#agency-repositories)
-* [Open source and contributing](#open-source-and-contributing)
-
 ## How eRegulations works
 
 {% for subtemplate in page.subtemplates %}
@@ -30,6 +21,4 @@ If you contribute the open source work of others, please mark it clearly in your
 
 ## Release policy
 
-We follow [semantic versioning](http://semver.org/) and will cut releases once
-a quarter (if code has changed) or more frequently if downstream projects need
-them.
+We follow [semantic versioning](http://semver.org/) and will cut releases once a quarter (if code has changed) or more frequently if downstream projects need them.
