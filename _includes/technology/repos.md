@@ -2,7 +2,7 @@
 
 There are many individual repositories that make up eRegulations. The project is divided into several components, and currently CFPB and 18F maintain two separate forks of **regulations-parser**, **regulations-core**, and **regulations-site**. 18F and CFPB plan to eventually merge these forks into shared components with maintenance shared between multiple agencies. 18F's forks are hosted in the shared eRegs GitHub organization; for now, in most cases people interested in using eRegulations should use those repositories.
 
-*Tip: If you'd like to get an example eRegulations site set up to try it out, check out [CFPB **regulations-bootstrap**](https://github.com/cfpb/regulations-bootstrap) to install a CFPB-centric version.*
+*Tip: If you want to set up an example eRegulations site, check out [CFPB **regulations-bootstrap**](https://github.com/cfpb/regulations-bootstrap) to install a CFPB-centric version.*
 
 {% if site.general_repos %}
 <section id="main-repositories">
