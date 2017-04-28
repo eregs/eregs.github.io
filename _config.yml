@@ -28,7 +28,7 @@ navigation:
 - text: History and press
   url: 'story/'
   internal: true
-- text: Current features
+- text: Features
   url: 'features/'
   internal: true
 - text: Introduction to regulations
