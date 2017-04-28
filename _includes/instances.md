@@ -1,8 +1,6 @@
 ## Live instances
 
-The application is typically hosted by individual federal agencies, with
-features and branding unique to their users and needs. Current instances of
-eRegs include:
+The application is typically hosted by individual federal agencies, with features and branding unique to their users and needs. Current instances of eRegs include:
 
 <section>
   <ul class="group">

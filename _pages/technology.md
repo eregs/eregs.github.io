@@ -3,7 +3,7 @@ layout: default
 title: Technology
 subtemplates: [architecture, stack, repos]
 ---
-# Code and documentation
+# Code and repositories
 
 ## How eRegulations works
 
@@ -12,6 +12,16 @@ subtemplates: [architecture, stack, repos]
   {% capture markdown %}{% include {{subtemplate_file}} %}{% endcapture %}
   {{ markdown | markdownify }}
 {% endfor %}
+
+
+
+
+
+
+
+
+
+
 
 ## Open source and contributing
 
