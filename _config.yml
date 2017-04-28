@@ -26,7 +26,7 @@ navigation:
   url: ''
   internal: true
 - text: History and press
-  url: 'history/'
+  url: 'story/'
   internal: true
 - text: Current features
   url: 'features/'

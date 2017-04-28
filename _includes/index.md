@@ -1,25 +1,12 @@
-## Features
 
-See the illustrated guide to eRegulations features on [its CFPB "About" page](http://www.consumerfinance.gov/eregulations/about) and [its ATF "About" page](https://atf-eregs.app.cloud.gov/about).
+## Background
 
-[More detail about the main features.](features/)
+Learn about the [history and purpose of the project](history/) and its [current features](features/), or read our [introductory guide to federal regulations](introduction/).
 
-## Code and documentation
+## Code and repositories
 
-[Overview of eRegulations technology and repositories.](technology/)
+Get an overview of our [technology and repositories](technology/), read our [governance policy](/contributing/#governance), or [contribute](/contribute/) to our code.
 
-### Open source and contributing
+## Create an eRegulations instance
 
-We invite contributions to any part of the application, from people inside and outside government. The project is in the public domain, and all contributions to it will be released as such. [Learn more.](contributing/)
-
-### Theming an instance
-
-[How to theme an eRegulations site.](theming/)
-
-## History, present, and future
-
-We would like other agencies, developers, and groups to use eRegulations and adapt it. [Here's some insight into the current status of the project and where it's going.](story/)
-
-## Introduction to regulations
-
-If you’re interested in learning about eRegulations or contributing to its development, it helps to have some background in what regulations are and how they fit into the legal landscape of the United States. [We wrote an informal guide.](introduction/)
+Learn how to [create and customize an eRegs instance](theming/).

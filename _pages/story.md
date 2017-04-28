@@ -1,8 +1,6 @@
 ---
 layout: default
 title: History and press
-redirect_from:
-  - /story/
 ---
 
 # History and press
@@ -48,3 +46,29 @@ Here are a few places eRegulations has been presented to larger audiences:
 * Canadian Community of Federal Regulators, October 2016
 * Government Executive's and Nextgov's [Bold Friday](http://www.fedstival.com/#bold-friday), October 2016
 * NARA Open Gov Working Group, November 2016
+
+## Goals for the future
+
+We want other agencies, developers, and groups to use eRegulations and adapt it. Here’s some insight into the current status of the project and where it’s going.
+
+### More context and document types
+
+eRegulations focuses on the Code of Federal Regulations right now, but regulations are only one part of an agency’s regulatory material. Related documents include both authoritative material (such as advisory opinions, rulings, and Federal Register notice preambles) and less-formal explanations that help people understand regulations and their requirements (such as guidebooks and FAQs).
+
+eRegulations could better integrate with that related material (as well as the relevant statutes in the United States Code) to help users understand regulations.
+A challenge is that each agency has its own collection of materials related to its regulations—with some types of documents in common and some unique to each agency. Some agencies use different names for similar types of documents.
+
+A few examples:
+
+* [CFPB](http://www.consumerfinance.gov/regulations/) includes "official interpretations" in its regulations (as an appendix to the main part of the regulation, all published together in the Code of Federal Regulations). CFPB also includes "section-by-section analysis" in its Federal Register notices. CFPB's eRegulations displays both of those types of material to help readers understand regulations.
+
+* [ATF](https://www.atf.gov/rules-and-regulations) publishes "rulings" and "open letters" that clarify aspects of its regulations. It also publishes plain-language Q&As, newsletters, and guidebooks to help explain its regulations. ATF's eRegulations only has a small amount of cross-linking with related resources, and it could do a lot more in the future.
+
+* [FEC](http://www.fec.gov/law/law.shtml) publishes "advisory opinions" and "Matters Under Review" that clarify aspects of its regulations, among other kinds of material.
+Relatedly, we recently kicked off [an effort](https://github.com/18F/omb-eregs) to apply eRegs learnings to the Office of Management and Budget's policy documents.
+
+### More flexibility
+
+[Code and repositories](../technology/) explains this in more detail, but in short: the parser eats XML from many different sources and writes that to an API. The user interface (UI) then reads from that API. There is currently one UI for eRegulations, but the intent is for the parser to be usable outside of this one interface into regulations, and for the API to be usable outside of this one interface. For example, people could build a regulations authoring tool with a different UI. Some regulatory agencies have specific needs that may require a different UI.
+
+The current codebase is somewhat tangled together, since there is just one UI right now, but supporting flexibility is an important ongoing goal.
