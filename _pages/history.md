@@ -7,9 +7,9 @@ redirect_from:
 
 # History and press
 
-[CFPB released its initial version of eRegulations in 2013](http://www.consumerfinance.gov/blog/making-regulations-easier-to-use/), and [18F and ATF began reusing it for ATF in 2015](https://18f.gsa.gov/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/).
+The CFPB released its initial version of eRegulations [in 2013](http://www.consumerfinance.gov/blog/making-regulations-easier-to-use/), and 18F and ATF began reusing it for ATF [in 2015](https://18f.gsa.gov/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/).
 
-### Press mentions
+## Press mentions
 
 A few news clippings that also discuss motivations for eRegulations:
 
@@ -27,7 +27,9 @@ A few news clippings that also discuss motivations for eRegulations:
 
 * [One Federal Website That Works](http://www.bloombergview.com/articles/2013-10-29/one-federal-website-that-works), October 2013, BloombergView: "Texts of official government rules are notoriously difficult to follow. Multiple cross-references to other rules make it necessary to consult many different resources. Experienced rule readers can find official interpretations; others can’t. CFPB’s new user-friendly site makes all available information visible and easily accessible...By focusing on users’ experience of the site, they built something that works well for real people. And the platform will constantly be upgraded because it’s open source -- meaning that any agency or company can adopt it free and improve on it."
 
-eRegs has also been cited in the White House Open Government Action Plans:
+## Open government plans
+
+eRegs has also been cited in White House Open Government Action Plans:
 
 * The [second]({{ site.baseurl }}/assets/pdf/us_national_action_plan_6p.pdf#page=12) plan highlighted the initial launch of the eRegs platform at CFPB as a step towards expanding public participation in the development of regulations.
 
@@ -37,7 +39,7 @@ eRegs has also been cited in the White House Open Government Action Plans:
 
 * The [self-assessment]({{ site.baseurl }}/assets/pdf/nap_3_0_self-assessment_report_20160916.pdf#page=26) of that plan describes the eRegs projects at ATF &amp; FEC, along with the Notice &amp; Comment pilot.
 
-### Presentations
+## Presentations
 
 Here are a few places eRegulations has been presented to larger audiences:
 
