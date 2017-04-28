@@ -10,7 +10,7 @@ See the illustrated guide to eRegulations features on [its CFPB "About" page](ht
 
 ### Open source and contributing
 
-We invite contributions to any part of the application, from people inside and outside government. The project is in the public domain, and all contributions to it will be released as such. [Learn more.](open-source-and-contributing/)
+We invite contributions to any part of the application, from people inside and outside government. The project is in the public domain, and all contributions to it will be released as such. [Learn more.](contributing/)
 
 ### Theming an instance
 

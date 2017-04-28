@@ -1,9 +1,9 @@
 ---
 layout: default
-title: eRegulations’ guidelines to writing rules and regulations
+title: Writing rules and regulations
 ---
 
-# eRegulations’ guidelines to writing rules and regulations
+# Writing rules and regulations
 
 ## Overview and checklist
 
