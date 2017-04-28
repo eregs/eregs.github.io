@@ -5,6 +5,15 @@ title: Creating an eRegulations instance
 
 # Creating an eRegulations instance
 
+**Table of contents**
+
+* [Building with the platform](#building-with-the-platform)
+* [Theming an instance](#theming-an-instance)
+* [Customize the styles](#customize-the-styles)
+* [How to customize the stylesheets](#customize-the-stylesheets)
+* [Agency specific stylesheets](#agency-specific-stylesheets)
+
+
 ## Building with the platform
 
 If you develop features or improvements that would benefit other agencies who use eRegulations, it makes sense to contribute them to the core cross-agency shared code libraries, which are [**regulations-core**](https://github.com/eregs/regulations-core), [**regulations-site**](https://github.com/eregs/regulations-site), and [**regulations-parser**](https://github.com/eregs/regulations-parser). We don't have a very good "raw" eRegulations right now, though we're slowly moving there. "Raw" eRegulations is basically CFPB eRegulations right now.
@@ -39,7 +48,7 @@ The `compile_frontend` command (i.e. `python manage.py compile_frontend`) uses a
 
 The `compile_frontend` command generates output indicating which files are being overridden.
 
-#### Django templates tip
+### Django templates tip
 
 You might find [django-overextends](https://github.com/stephenmcd/django-overextends) helpful; see [this usage in ATF eRegulations for an example](https://github.com/18F/atf-eregs/blob/master/atf_eregs/templates/regulations/generic_landing.html#L1).
 
@@ -58,17 +67,18 @@ You can build "overriding" files in an agency-specific wrapper repository, inste
 
 You can do most font theming by including the basic font mixins to create specific formatting rules for different types of content. Here’s an example that declares a basic font and then creates a variation with a particular size and line height for a specific type of content within the theme:
 
-``` scss
-@mixin sans-font-regular {
-  font-family: "Source Sans Pro", Arial, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-@mixin regulation-nav-item-font {
-  @include sans-font-regular;
-  font-size: 1em;
-  line-height: 20px;
-}
+``` scss  
+@mixin sans-font-regular {  
+  font-family: "Source Sans Pro", Arial, sans-serif;  
+  font-weight: 400;  
+  font-style: normal;  
+}  
+
+@mixin regulation-nav-item-font {  
+  @include sans-font-regular;  
+  font-size: 1em;  
+  line-height: 20px;  
+}  
 ```
 
 This approach allows for variation in typography without needing to create a lot of customization variables (`$regulation_nav_item_font_size`, etc) for one-off styling choices.
@@ -77,13 +87,14 @@ This approach allows for variation in typography without needing to create a lot
 
 Overriding base files in **regulations-site** is simple. In the agency-specific repo, list overriding custom stylesheets in (`/css/scss/module/_custom.scss`):
 
-``` sass
-// custom imports
-@import '../comment-custom';
-@import '../layout-custom';
-// Custom Modules
-@import 'header-custom';
-@import 'note-custom';
+``` sass  
+// custom imports  
+@import '../comment-custom';  
+@import '../layout-custom';  
+
+// Custom Modules  
+@import 'header-custom';  
+@import 'note-custom';  
 ```
 
 Additional variables will similarly reside in `/css/scss/_variables.scss`.
