@@ -4,39 +4,48 @@ title: Features
 ---
 # Features
 
-eRegulations includes an illustrated user guide that explains its features — see this live on [the CFPB eRegulations "About" page](http://www.consumerfinance.gov/eregulations/about) and [the ATF eRegulations "About" page](https://atf-eregs.app.cloud.gov/about).
+eRegulations includes an illustrated user guide that explains its features. See it live on the [CFPB](http://www.consumerfinance.gov/eregulations/about) and [ATF](https://atf-eregs.app.cloud.gov/about) instances.
 
-In more detail, some of the main features of the tool are:
+### Navigability
 
-- #### Navigability
 While regulations are traditionally represented as monolithic blocks of text, they contain a great deal of embedded structure. eRegulations teases out that structure and uses it to present the text in a clean, readable form.
 
-- #### Inline interpretations
-Many regulation paragraphs have official interpretations that have traditionally been displayed at the end of the regulation, forcing readers to swap back and forth between the regulation content and interpretation at the end. eRegulations parses the interpretations for each paragraph, and displays them right under the paragraph/section being interpreted.
+### Inline interpretations
 
-- #### Definitions
+Many regulation paragraphs have official interpretations that have traditionally been displayed at the end of the regulation, forcing readers to jump back and forth between the regulation and its interpretation. eRegulations parses the interpretations for each paragraph, and displays them under the paragraph or section being interpreted.
+
+### Definitions
+
 We highlight words that have been defined in the regulation, and the user can click on the word and see its definition without scrolling to the part of the regulation that defines that word.
 
-- #### Internal citations
-The parser parses out all internal citations in the regulation, and we display them as clickable links allowing easy navigation within a regulation.
+### Internal citations
 
-- #### Search
-We provide the ability to search for phrases across various versions of a regulation.
+Internal citations display as clickable links so users can quickly navigate between sections.
 
-- #### Alternate versions of the regulations
-Regulations are evolving documents and are often displayed as changes to the base text. We present whole versions of regulations for each set of changes (We combine Final Rules that have a common effective date into a version).
+### Search
 
-- #### Comparing versions
-We show the difference between whole versions of regulations in a "redline" or word-by-word comparison view. All changes are expressed as additions (shown in green) or deletions (struck-through, lighter gray). This view clearly shows how a regulation changes.
+Users can search for keywords across various versions of a regulation.
 
-- #### Retrieve by effective date
-A user can also enter in a date, and retrieve the version of the regulation effective at that point in time.
+### Versioning
 
-- #### Section-by-section analysis
-The notices that compose a version of the regulation contain relevant analyses of the altered sections. We automatically pull that information out and make it accessible while reading the regulation text.
+Regulations are evolving documents and are often displayed as changes to the base text. We present whole versions of regulations for each set of changes and combine Final Rules that have a common effective date into one version.
 
-- #### Responsive design
+### Comparing versions
+
+Users can see how a regulation changed in a word-by-word or “redline” comparison view. Changes are expressed as additions (shown in green) or deletions (struck-through, in lighter gray).
+
+### Filter by date
+
+Users can view specific versions of a regulation by the effective date.
+
+### Section-by-section analysis
+
+The notices that compose a version of a regulation contain relevant analyses of the altered sections. We automatically pull that information out and make it accessible while reading the regulation text.
+
+### Responsive design
+
 The application design is responsive, adjusting to the device and screen size of the user.
 
-- #### Comment on Proposed Rules
-Proposed rules published by the [Federal Register](https://federalregister.gov) can be imported into our clean interface, including displaying "redline" diffs of the proposed CFR changes. Users can then comment on specific paragraphs and sections of the proposal. [Read More](/features/notice-and-comment)
+### Comment on proposed rules
+
+Proposed rules published by the [Federal Register](https://federalregister.gov) can be imported into our interface. Users can compare two versions side-by-side and comment on specific paragraphs or sections of the proposal. [Read more](/features/notice-and-comment).
