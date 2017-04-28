@@ -1,6 +1,8 @@
 ---
 layout: default
 title: History and press
+redirect_from:
+  - /story/
 ---
 
 # History and press
