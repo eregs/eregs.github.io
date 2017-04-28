@@ -43,7 +43,7 @@ navigation:
 - text: Writing rules and regulations
   url: 'guidelines/'
   internal: true
-- text: Contributing
+- text: Contributing and open source
   url: 'contributing/'
   internal: true
 - text: Contact

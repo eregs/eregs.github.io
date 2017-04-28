@@ -9,9 +9,9 @@ title: Creating an eRegulations instance
 
 * [Building with the platform](#building-with-the-platform)
 * [Theming an instance](#theming-an-instance)
-* [Customize the styles](#customize-the-styles)
-* [How to customize the stylesheets](#customize-the-stylesheets)
-* [Agency specific stylesheets](#agency-specific-stylesheets)
+  * [Customize the styles](#customize-the-styles)
+  * [How to customize the stylesheets](#customize-the-stylesheets)
+  * [Agency specific stylesheets](#agency-specific-stylesheets)
 
 
 ## Building with the platform
