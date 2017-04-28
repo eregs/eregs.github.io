@@ -22,7 +22,7 @@ baseurl: ''
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Overview and live instances
+- text: About the platform
   url: ''
   internal: true
 - text: History and press
