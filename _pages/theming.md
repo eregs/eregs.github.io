@@ -67,18 +67,18 @@ You can build "overriding" files in an agency-specific wrapper repository, inste
 
 You can do most font theming by including the basic font mixins to create specific formatting rules for different types of content. Here’s an example that declares a basic font and then creates a variation with a particular size and line height for a specific type of content within the theme:
 
-``` scss  
-@mixin sans-font-regular {  
-  font-family: "Source Sans Pro", Arial, sans-serif;  
-  font-weight: 400;  
-  font-style: normal;  
-}  
+``` scss
+@mixin sans-font-regular {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
-@mixin regulation-nav-item-font {  
-  @include sans-font-regular;  
-  font-size: 1em;  
-  line-height: 20px;  
-}  
+@mixin regulation-nav-item-font {
+  @include sans-font-regular;
+  font-size: 1em;
+  line-height: 20px;
+}
 ```
 
 This approach allows for variation in typography without needing to create a lot of customization variables (`$regulation_nav_item_font_size`, etc) for one-off styling choices.
@@ -87,14 +87,14 @@ This approach allows for variation in typography without needing to create a lot
 
 Overriding base files in **regulations-site** is simple. In the agency-specific repo, list overriding custom stylesheets in (`/css/scss/module/_custom.scss`):
 
-``` sass  
-// custom imports  
-@import '../comment-custom';  
-@import '../layout-custom';  
+``` sass
+// custom imports
+@import '../comment-custom';
+@import '../layout-custom';
 
-// Custom Modules  
-@import 'header-custom';  
-@import 'note-custom';  
+// Custom Modules
+@import 'header-custom';
+@import 'note-custom';
 ```
 
 Additional variables will similarly reside in `/css/scss/_variables.scss`.
