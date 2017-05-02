@@ -1,9 +1,9 @@
 ---
 layout: default
-title: eRegulations’ guidelines to writing rules and regulations
+title: Writing rules and regulations
 ---
 
-# eRegulations’ guidelines to writing rules and regulations
+# Writing rules and regulations
 
 ## Overview and checklist
 
@@ -17,9 +17,9 @@ title: eRegulations’ guidelines to writing rules and regulations
 
 ## 1. What is eRegulations?
 
-eRegulations is an open-source platform for making regulations easier to find, read, and understand. We digitally digest agency regulations and rules to present their built-in structure in a clean, readable form, including their changes over time. 
+eRegulations is an open-source platform for making regulations easier to find, read, and understand. We digitally digest agency regulations and rules to present their built-in structure in a clean, readable form, including their changes over time.
 
-eRegulations Notice & Comment also provides a way for the public to comment on Notices of Proposed Rulemaking in a structured and more precise way. This makes it easier for commenters to respond to specific issues in the rule — down to the paragraph level — and allows agencies to efficiently sort and organize those comments. 
+eRegulations Notice & Comment also provides a way for the public to comment on Notices of Proposed Rulemaking in a structured and more precise way. This makes it easier for commenters to respond to specific issues in the rule — down to the paragraph level — and allows agencies to efficiently sort and organize those comments.
 
 [You can learn more about the history, features, and background of the eRegulations platform at eregs.github.io.](https://eregs.github.io/)
 
@@ -39,23 +39,23 @@ First and foremost, we recommend following the [Federal Register Document Drafti
 ### 3.1 Format vs. structure
 In regulation writing, document “semantics” refer to their _meaning_, as opposed to their _appearance_. For example, this document has two levels of headings. Their _appearance_ involves their font size, weight (for example, bold), etc. while their _semantics_ revolve around the structure they give to the document. For example, this section, “3.1 Format vs structure,” lives _inside_ the “3. Formatting and structuring your rule” section.  That is a _semantic_ structure.
 
-The eRegulations platform is focused on the _structure_ of regulations, Federal Register notices, etc. We know how to split documents into separate pages, link between sections, show historical changes of a regulation over time, and so forth due to understanding the structure of the documents. Using and adding a level of formatting to meaningful headings and subheadings makes the rule easier for the eRegulations platform to parse and organize and for people to read. 
+The eRegulations platform is focused on the _structure_ of regulations, Federal Register notices, etc. We know how to split documents into separate pages, link between sections, show historical changes of a regulation over time, and so forth due to understanding the structure of the documents. Using and adding a level of formatting to meaningful headings and subheadings makes the rule easier for the eRegulations platform to parse and organize and for people to read.
 
 **We recommend that in your regulation writing, you avoid referring to specific formatting details** (such as “see the italic/underlined/bold text in paragraph (b)”) as the final representation may not display them the same way across all versions of your rule, and instead focus on the _semantic_ structure.
 
-Similarly, keep in mind that the “idealized” rule (and the rule that gets printed) is one composed of headers, paragraphs, images, and tables. There is limited support for bulleted lists, nested paragraphs, emphasized text (and similar typographic formatting details), different types of indentation, and so forth. 
+Similarly, keep in mind that the “idealized” rule (and the rule that gets printed) is one composed of headers, paragraphs, images, and tables. There is limited support for bulleted lists, nested paragraphs, emphasized text (and similar typographic formatting details), different types of indentation, and so forth.
 
 By focusing on the _semantic_ structure instead of typographic _formatting_ and limiting the rule to headers, paragraphs, images, and tables, you will guarantee the rule will appear consistent across print, federalregister.gov, and eRegulations.
 
 ### 3.2 File formats accepted by eRegulations
 
-eRegulations uses the Federal Register’s XML data to display your agency’s _published_ rules and regulations. 
+eRegulations uses the Federal Register’s XML data to display your agency’s _published_ rules and regulations.
 
 If you want to use eRegulations for your rule’s notice and comment period, or want to publish a document _before_ it is published in the Federal Register, we recommend the following file types in order of preference:
 
 - _Ideally_
-  - XML written in 
-    - Document Type Definition (DTD), or 
+  - XML written in
+    - Document Type Definition (DTD), or
     - A format that is written with the standards of the Federal Register in mind (i.e. using headers, paragraphs, tables, and images, and not lots of bullet points, indentations, and other styling and formatting)
   - Markdown HTML
 
@@ -69,7 +69,7 @@ The eRegulations platform pulls out the structure of regulations and preambles t
 
 #### 3.3.1 Regulation structure
 
-Please follow the Code of Federal Regulations recommended structure: 
+Please follow the Code of Federal Regulations recommended structure:
 
 **Title:** Broad subject area of regulations
 
@@ -95,13 +95,13 @@ eRegulations primarily focuses on parts, sections, and paragraphs. The Federal R
 
 #### 3.3.2 Keep to the outline structure
 
-The regulation’s outline structure is a reader’s best friend. It creates hierarchical relationships between paragraphs, and therefore topics, allowing the reader to more easily focus their energy on sections that apply to them. 
+The regulation’s outline structure is a reader’s best friend. It creates hierarchical relationships between paragraphs, and therefore topics, allowing the reader to more easily focus their energy on sections that apply to them.
 
-The outline structure also fosters better citations. When paragraphs are “addressable”, they can be referenced by other paragraphs, notices, and documents. If a paragraph doesn’t fit into the structure, it’s not easy to reference, making it difficult for users to find. Further, the eRegulations platform allows readers to link directly to sections or paragraphs. 
+The outline structure also fosters better citations. When paragraphs are “addressable”, they can be referenced by other paragraphs, notices, and documents. If a paragraph doesn’t fit into the structure, it’s not easy to reference, making it difficult for users to find. Further, the eRegulations platform allows readers to link directly to sections or paragraphs.
 
-**We recommend sticking very closely to the regulation outline structure** (or whatever outline structure you are using for your preamble). 
+**We recommend sticking very closely to the regulation outline structure** (or whatever outline structure you are using for your preamble).
 
-##### Be careful when using numbered lists.
+##### Be careful when using numbered lists
 
 Please do not use numbered lists that do not match up with your outline structure. Since the outline already has a hierarchical structure, numbered lists fit easily within that structure. This keeps the flow for readers while still communicating the 1, 2, 3 nature of your list. Although your drafting software will allow you to add a numbered list into your document, the eRegulations platform will not be able to properly pull it out because the numbers will seem like citations at the paragraph level. We want to keep citations working properly so readers have a better understanding of where they are in the document and how to tell someone else where to look.
 
@@ -113,7 +113,7 @@ Bullets can be great for breaking up paragraphs and clarifying text in way that�
 
 The eRegulations platform currently follows the same pattern as the printed Federal Register document. We are working to pull out bullets in the future, but if your bullets can be similarly communicated within the outline structure (as discussed above re: [numbered lists](**ADD LINK TO ABOVE SECTION**)), **we recommend including these paragraphs in that structure.**
 
-In addition, we recommend not using sub-bullets. Because bullets are treated the same as any other paragraph, they are very hard to follow in the print version of the document, and therefore, eRegulations. The hierarchical structure is stripped out. If your bullet has sub-bullets, consider another structure that only accommodates one level of bullets or builds your list into the larger outline structure of your document. 
+In addition, we recommend not using sub-bullets. Because bullets are treated the same as any other paragraph, they are very hard to follow in the print version of the document, and therefore, eRegulations. The hierarchical structure is stripped out. If your bullet has sub-bullets, consider another structure that only accommodates one level of bullets or builds your list into the larger outline structure of your document.
 
 ##### One list at a time
 
@@ -127,7 +127,7 @@ Although the reader may be able to see which list belongs to which paragraph, th
 
 #### 3.3.3 Use headings wherever possible
 
-The [Federal Register Document Drafting Handbook](https://www.archives.gov/federal-register/write/handbook/chapters.html) recommends the use of consistent headings at any paragraph level. Headings are essential to a good structured regulation or preamble. Headings group and explain topics to the public, so they know which paragraphs to read, and which don’t apply to them. Headings are the reason eRegulations fosters quick skimming and navigation throughout the document. 
+The [Federal Register Document Drafting Handbook](https://www.archives.gov/federal-register/write/handbook/chapters.html) recommends the use of consistent headings at any paragraph level. Headings are essential to a good structured regulation or preamble. Headings group and explain topics to the public, so they know which paragraphs to read, and which don’t apply to them. Headings are the reason eRegulations fosters quick skimming and navigation throughout the document.
 
 The Federal Register handbook says, **“Present this information in language that the reader can easily understand, with descriptive headings to highlight and organize topics.”** Here is a good example of how this can work and look in the eRegulations platform:
 
@@ -141,7 +141,7 @@ We understand that it is not always feasible to have headings at every paragraph
 
 #### 3.3.4 Preamble structure
 
-Federal Register notices do not have as defined of a structure as regulations. However, a good, and easily parsable, preamble in a Notice of Proposed Rulemaking should follow the outline structure and heading advice above. 
+Federal Register notices do not have as defined of a structure as regulations. However, a good, and easily parsable, preamble in a Notice of Proposed Rulemaking should follow the outline structure and heading advice above.
 
 Although preambles’ paragraphs are a little more freeform than regulation paragraphs, the structure is extremely important for the public to understand what the agency wants comments on. Here is a good example of how this may look in the eRegulations platform:
 
@@ -162,15 +162,15 @@ The goal of the eRegulations comparison tool is to show how regulations have cha
 
 #### 4.1.1 Revise the entire paragraph by default
 
-Even if you are only revising a word or a sentence, **we recommend revising the entire paragraph**. The computer will easily be able to compare the new text to the old text and show the differences in the eRegulations platform. Something like “change the fifth word in paragraph (b)” is hard for computers to get right, and may require manual intervention by an eRegulations developer. 
+Even if you are only revising a word or a sentence, **we recommend revising the entire paragraph**. The computer will easily be able to compare the new text to the old text and show the differences in the eRegulations platform. Something like “change the fifth word in paragraph (b)” is hard for computers to get right, and may require manual intervention by an eRegulations developer.
 
-Here is one example of a change that is hard to parse: "In § 478.72, add a new fifth sentence to read as follows:" At first glance, that seems like a simple instruction, but what does it actually mean? It could be saying, "insert this sentence and shift everything down,” or could it mean, "replace the fifth sentence"? It could also potentially mean, "add a new sentence to the end of the paragraph." Showing the full revised paragraph adds context for both the computer parsing your regulations and those of your readers who are looking at the printed rule. 
+Here is one example of a change that is hard to parse: "In § 478.72, add a new fifth sentence to read as follows:" At first glance, that seems like a simple instruction, but what does it actually mean? It could be saying, "insert this sentence and shift everything down,” or could it mean, "replace the fifth sentence"? It could also potentially mean, "add a new sentence to the end of the paragraph." Showing the full revised paragraph adds context for both the computer parsing your regulations and those of your readers who are looking at the printed rule.
 
 #### 4.1.2 Using specific keywords
 
 The eRegulations platform follows the Federal Register’s [specific amendatory terms (Chapter 1.13)](https://www.archives.gov/federal-register/write/handbook/chapter-1.pdf) very closely to create the comparison between the old and new regulation. We recommend following those guidelines and using words like "revise", "add", "remove" as opposed to "change", "create", "delete", etc. when amending regulation text in a notice of proposed rulemaking.
 
-The following is a list of words from the Federal Register’s [guidelines](https://www.archives.gov/federal-register/write/handbook/chapter-1.pdf) that the eRegulations platform recognizes. The eRegulations platform does not currently recognize the words that are crossed out. If you use one of those words, it will require manual intervention by an eRegulations developer. 
+The following is a list of words from the Federal Register’s [guidelines](https://www.archives.gov/federal-register/write/handbook/chapter-1.pdf) that the eRegulations platform recognizes. The eRegulations platform does not currently recognize the words that are crossed out. If you use one of those words, it will require manual intervention by an eRegulations developer.
 
 - Add, Added, Adding
 - Redesignate, Redesignated, Redesignating
@@ -180,7 +180,7 @@ The following is a list of words from the Federal Register’s [guidelines](http
 - Revise, Revised, Revising
 - ~~Withdraw~~, ~~Withdrawn~~, ~~Withdrawing~~
 
-#### 4.1.3 Examples 
+#### 4.1.3 Examples
 
 **Good:** “Section 262.24 is amended by revising paragraphs (c) and (g) to read as follows:”
 
@@ -205,9 +205,9 @@ Why:
 
 ### 4.2 Cross referencing from the preamble
 
-One of the biggest pain points for readers of a proposed rule is the connection points between where a change is discussed in the preamble and the actual new language. In our user research, many readers asked for this feature, but the eRegulations platform cannot make a connection automatically unless the proper citations are written into the document. 
+One of the biggest pain points for readers of a proposed rule is the connection points between where a change is discussed in the preamble and the actual new language. In our user research, many readers asked for this feature, but the eRegulations platform cannot make a connection automatically unless the proper citations are written into the document.
 
-When discussing why your agency is making a specific change to a regulation, **we recommend referencing the citation that is being changed in addition to the numbered amendment in the notice**. For example: 
+When discussing why your agency is making a specific change to a regulation, **we recommend referencing the citation that is being changed in addition to the numbered amendment in the notice**. For example:
 
  “The regulatory requirements for [this new item] are proposed at § 264.71(b) in amendment 10 of this proposed rule.”
 
@@ -247,9 +247,9 @@ The [Plain Language Act of 2010](https://www.gpo.gov/fdsys/pkg/PLAW-111publ274/p
 >
 > (3) PLAIN WRITING.—The term ‘‘plain writing’’ means writing that is clear, concise, well-organized, and follows other best practices appropriate to the subject or field and intended audience.”
 
-**This law applies to the preamble of Federal Register notices,** which explain how and why users need to comply with the new regulation. 
+**This law applies to the preamble of Federal Register notices,** which explain how and why users need to comply with the new regulation.
 
-Although this law does not apply directly to regulations, there are three Executive Orders ([E.O. 12866](http://www.plainlanguage.gov/populartopics/regulations/eo12866.pdf), [E.O. 12988](http://www.plainlanguage.gov/populartopics/regulations/eo12988.pdf), and [E.O. 13563](https://www.gpo.gov/fdsys/pkg/FR-2011-01-21/pdf/2011-1385.pdf)) that promote the use of plain language in regulations. And, the benefits of applying plain language to regulation text (as it changes over time) can be measured in industry compliance and agency staff time spent responding to inquiries. 
+Although this law does not apply directly to regulations, there are three Executive Orders ([E.O. 12866](http://www.plainlanguage.gov/populartopics/regulations/eo12866.pdf), [E.O. 12988](http://www.plainlanguage.gov/populartopics/regulations/eo12988.pdf), and [E.O. 13563](https://www.gpo.gov/fdsys/pkg/FR-2011-01-21/pdf/2011-1385.pdf)) that promote the use of plain language in regulations. And, the benefits of applying plain language to regulation text (as it changes over time) can be measured in industry compliance and agency staff time spent responding to inquiries.
 
 If you are interested in the benefits and history of plain language guidence for regulations, plainlanguage.gov has a [good explanation](http://www.plainlanguage.gov/populartopics/regulations/index.cfm).
 
@@ -259,12 +259,10 @@ If you are interested in the benefits and history of plain language guidence for
   - Use questions in section headings
   - Use "You" for whoever must comply
 
-- [Federal Plain Language Guidelines](http://www.plainlanguage.gov/howto/guidelines/FederalPLGuidelines/index.cfm) 
+- [Federal Plain Language Guidelines](http://www.plainlanguage.gov/howto/guidelines/FederalPLGuidelines/index.cfm)
 
 - The Federal Register explains how to [rewrite a short rule, step by step](http://www.archives.gov/federal-register/write/plain-language/short-rule-1.html).
 
 - [18F’s Content Guide on Plain Language](https://pages.18f.gov/content-guide/plain-language/)
 
 - The average American reads at a 7th or 8th grade level. It can be hard to reach that level in a complicated document like a regulation, but it is good to aim for a level that most people can easily understand. Tools like the [Hemingway Editor](http://www.hemingwayapp.com/) or [Readability Score](https://readability-score.com/text/) allow users to check their text for the current reading level and pulls out particularly tricky sentences and words that are worth editing.
-
-

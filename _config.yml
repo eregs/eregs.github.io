@@ -22,28 +22,31 @@ baseurl: ''
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
-- text: Overview and live instances
+- text: About the platform
   url: ''
+  internal: true
+- text: History and press
+  url: 'story/'
   internal: true
 - text: Features
   url: 'features/'
   internal: true
-- text: Code and documentation
-  url: 'technology/'
-  internal: true
-- text: Theming an instance
-  url: 'theming/'
-  internal: true
-- text: History, present, and future
-  url: 'story/'
-  internal: true
 - text: Introduction to regulations
   url: 'introduction/'
   internal: true
-- text: Guidelines
+- text: Code and repositories
+  url: 'technology/'
+  internal: true
+- text: Creating an eRegs instance
+  url: 'theming/'
+  internal: true
+- text: Writing rules and regulations
   url: 'guidelines/'
   internal: true
-- text: Contact and governance
+- text: Contributing and open source
+  url: 'contributing/'
+  internal: true
+- text: Contact
   url: 'contact/'
   internal: true
 
