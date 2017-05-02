@@ -5,7 +5,7 @@ title: History and press
 
 # History and press
 
-The CFPB released its initial version of eRegulations [in 2013](http://www.consumerfinance.gov/blog/making-regulations-easier-to-use/), and 18F and ATF began reusing it for ATF [in 2015](https://18f.gsa.gov/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/).
+The CFPB released its initial version of eRegulations [in 2013](http://www.consumerfinance.gov/blog/making-regulations-easier-to-use/), and 18F began reusing it for ATF [in 2015](https://18f.gsa.gov/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/).
 
 ## Press mentions
 
