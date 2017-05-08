@@ -7,6 +7,15 @@ title: History and press
 
 The CFPB released its initial version of eRegulations [in 2013](http://www.consumerfinance.gov/blog/making-regulations-easier-to-use/), and 18F began reusing it for ATF [in 2015](https://18f.gsa.gov/2015/12/09/an-open-source-government-is-a-faster-more-efficient-government/).
 
+## Research
+
+You can find our user research and usability notes on GitHub:
+
+* [eRegs Platform wiki](https://github.com/18F/eregs-platform/wiki#what-is-eregulations)
+* [eRegs Notice and Comment wiki](https://github.com/18F/epa-notice/wiki)
+* [ATF eRegs wiki](https://github.com/18F/atf-eregs/wiki)
+* [OMB Policy Library wiki](https://github.com/18F/omb-eregs/wiki)
+
 ## Press mentions
 
 A few news clippings that also discuss motivations for eRegulations:
