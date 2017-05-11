@@ -5,7 +5,7 @@ title: Notice and Comment
 
 # Notice and Comment
 
-During the spring of 2016, an 18F team expanded the platform, adding Notice &amp; Comment functionality that allows users to comment on proposed rules—down to the paragraph level—and allows agencies to more easily manage and contextually organize the comments coming in. The pilot project launches in mid-July with the Environmental Protection Agency’s eManifest team.
+During the spring of 2016, 18F expanded the eRegs platform, adding Notice &amp; Comment features that allow users to comment on proposed rules—down to the paragraph level—and help agencies manage and organize comments coming in. The [pilot project](https://epa-notice.usa.gov/) launched in July 2016 with the Environmental Protection Agency’s eManifest team.
 
 ## Sprint demo playlist (11 videos)
 
