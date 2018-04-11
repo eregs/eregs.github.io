@@ -1,6 +1,6 @@
 ### Stack
 
-**regulations-parser** is written in Python 2.7.
+**regulations-parser** is written in Python.
 
 **regulations-core** is a Django and Haystack application.
 
