@@ -9,7 +9,7 @@ The CFPB released its initial version of eRegulations [in 2013](http://www.consu
 
 In July 2016, 18F expanded the platform with [Notice and Comment](/features/notice-and-comment) features for the [EPA](https://epa-notice.usa.gov/).
 
-18F is currently working on the [OMB Policy Library](https://github.com/18F/omb-eregs), which is based on the eRegs platform.
+In 2017, 18F worked with OMB on the [OMB Policy Library](https://github.com/18F/omb-eregs), which is based on the eRegs platform.
 
 ## Research
 
