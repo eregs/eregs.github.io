@@ -166,12 +166,12 @@ brand_color: "#2cb34a"
 
 # eRegs instances in the wild
 instances:
-- url: https://www.fec.gov/legal-resources/regulations/
+- url: hhttps://www.fec.gov/regulations
   title: 11
   agency: Federal Election Commission
-- url: http://www.consumerfinance.gov/eregulations/
+- url: https://www.consumerfinance.gov/rules-policy/regulations/
   title: 12
   agency: Consumer Financial Protection Bureau
-- url: https://atf-eregs.app.cloud.gov/
+- url: https://regulations.atf.gov/
   title: 27
   agency: Bureau of Alcohol, Tobacco, Firearms and Explosives
