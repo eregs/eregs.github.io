@@ -11,6 +11,8 @@ In July 2016, 18F expanded the platform with [Notice and Comment](/features/noti
 
 In 2017, 18F worked with OMB on the [OMB Policy Library](https://github.com/18F/omb-eregs), which is based on the eRegs platform.
 
+In 2020-2021, CMS worked with a contractor on [adapting eRegs for the Center for Medicaid and CHIP Services](https://github.com/CMSgov/cmcs-eregulations).
+
 ## Research
 
 You can find our user research and usability notes on GitHub:
@@ -19,6 +21,7 @@ You can find our user research and usability notes on GitHub:
 * [eRegs Notice and Comment wiki](https://github.com/18F/epa-notice/wiki)
 * [ATF eRegs wiki](https://github.com/18F/atf-eregs/wiki)
 * [OMB Policy Library wiki](https://github.com/18F/omb-eregs/wiki)
+* [CMCS eRegs wiki](https://github.com/CMSgov/cmcs-eregulations/wiki)
 
 ## Press mentions
 
