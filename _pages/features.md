@@ -4,7 +4,7 @@ title: Features
 ---
 # Features
 
-eRegulations includes an illustrated user guide that explains its features. See it live on the [CFPB](http://www.consumerfinance.gov/eregulations/about) and [ATF](https://atf-eregs.app.cloud.gov/about) instances.
+eRegulations includes an illustrated user guide that explains its features. See it live on the [ATF instance](https://regulations.atf.gov/about).
 
 ## Current features
 
@@ -70,7 +70,8 @@ A few examples:
 * [ATF](https://www.atf.gov/rules-and-regulations) publishes "rulings" and "open letters" that clarify aspects of its regulations. It also publishes plain-language Q&As, newsletters, and guidebooks to help explain its regulations. ATF's eRegulations only has a small amount of cross-linking with related resources, and it could do a lot more in the future.
 
 * [FEC](http://www.fec.gov/law/law.shtml) publishes "advisory opinions" and "Matters Under Review" that clarify aspects of its regulations, among other kinds of material.
-Relatedly, we recently kicked off [an effort](https://github.com/18F/omb-eregs) to apply eRegs learnings to the Office of Management and Budget's policy documents.
+
+18F also worked on [an effort](https://github.com/18F/omb-eregs) to apply eRegs learnings to the Office of Management and Budget's policy documents.
 
 ### More flexibility
 
