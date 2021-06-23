@@ -166,7 +166,7 @@ brand_color: "#2cb34a"
 
 # eRegs instances in the wild
 instances:
-- url: hhttps://www.fec.gov/regulations
+- url: https://www.fec.gov/regulations
   title: 11
   agency: Federal Election Commission
 - url: https://www.consumerfinance.gov/rules-policy/regulations/
