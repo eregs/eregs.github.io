@@ -25,6 +25,15 @@ You can find our user research and usability notes on GitHub:
 
 ## Press mentions
 
+## Phases and concurrent efforts
+
+{% for phase in site.data.phases %}
+### {{ phase.title }} ({{ phase.who }}, {{ phase.when }})
+{{ phase.what | markdownify }}
+{% endfor %}
+
+## In the news
+
 A few news clippings that also discuss motivations for eRegulations:
 
 * [Federal Source Code Policy: Achieving Efficiency, Transparency, and Innovation through Reusable and Open Source Software](https://policy.cio.gov/source-code/), August 2016, The White House: “18F and the Consumer Financial Protection Bureau (CFPB): Both of these organizations have policies that establish a default position to publish source code that is custom-developed by or for the organization. For example, both organizations contribute to the source code for the eRegulations platform, a web-based interface for public viewing and commenting on proposed changes to Federal regulations. The eRegulations platform, which originated at CFPB, is being used by other Federal agencies and continues to be improved based on public feedback.”
