@@ -11,7 +11,7 @@ In July 2016, 18F expanded the platform with [Notice and Comment](/features/noti
 
 In 2017, 18F worked with OMB on the [OMB Policy Library](https://github.com/18F/omb-eregs), which is based on the eRegs platform.
 
-In 2020-2021, CMS worked with a contractor on [adapting eRegs for the Center for Medicaid and CHIP Services](https://github.com/CMSgov/cmcs-eregulations).
+In 2020, CMS worked with a contractor to [adapt eRegs for the Center for Medicaid and CHIP Services](https://github.com/CMSgov/cmcs-eregulations).
 
 ## Research
 
@@ -21,13 +21,13 @@ You can find our user research and usability notes on GitHub:
 * [eRegs Notice and Comment wiki](https://github.com/18F/epa-notice/wiki)
 * [ATF eRegs wiki](https://github.com/18F/atf-eregs/wiki)
 * [OMB Policy Library wiki](https://github.com/18F/omb-eregs/wiki)
-* [CMCS eRegs wiki](https://github.com/CMSgov/cmcs-eregulations/wiki)
+* [CMCS eRegs wiki](https://github.com/Enterprise-CMCS/cmcs-eregulations/wiki)
 
 ## Press mentions
 
 A few news clippings that also discuss motivations for eRegulations:
 
-* [Federal Source Code Policy: Achieving Efficiency, Transparency, and Innovation through Reusable and Open Source Software](https://policy.cio.gov/source-code/), August 2016, The White House: “18F and the Consumer Financial Protection Bureau (CFPB): Both of these organizations have policies that establish a default position to publish source code that is custom-developed by or for the organization. For example, both organizations contribute to the source code for the eRegulations platform, a web-based interface for public viewing and commenting on proposed changes to Federal regulations. The eRegulations platform, which originated at CFPB, is being used by other Federal agencies and continues to be improved based on public feedback.”
+* [Federal Source Code Policy: Achieving Efficiency, Transparency, and Innovation through Reusable and Open Source Software](https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf), August 2016, The White House: “18F and the Consumer Financial Protection Bureau (CFPB): Both of these organizations have policies that establish a default position to publish source code that is custom-developed by or for the organization. For example, both organizations contribute to the source code for the eRegulations platform, a web-based interface for public viewing and commenting on proposed changes to Federal regulations. The eRegulations platform, which originated at CFPB, is being used by other Federal agencies and continues to be improved based on public feedback.”
 
  * [PDF Version of the Memorandum]({{ site.baseurl }}/assets/pdf/m_16_21.pdf#page=3)
 
@@ -39,7 +39,7 @@ A few news clippings that also discuss motivations for eRegulations:
 
 * [CFPB’s eRegulations tool promises to help users navigate federal regulations](https://www.acus.gov/newsroom/administrative-fix-blog/cfpb%E2%80%99s-eregulations-tool-promises-help-users-navigate-federal), October 2013, Administrative Conference of the US: "By opening eRegulations up to suggestions and improvements from the public, CFPB is allowing hands-on contribution to the debate over what sources are appropriately considered as a part of regulatory interpretation."
 
-* [One Federal Website That Works](http://www.bloombergview.com/articles/2013-10-29/one-federal-website-that-works), October 2013, BloombergView: "Texts of official government rules are notoriously difficult to follow. Multiple cross-references to other rules make it necessary to consult many different resources. Experienced rule readers can find official interpretations; others can’t. CFPB’s new user-friendly site makes all available information visible and easily accessible...By focusing on users’ experience of the site, they built something that works well for real people. And the platform will constantly be upgraded because it’s open source -- meaning that any agency or company can adopt it free and improve on it."
+* [One Federal Website That Works](http://www.bloomberg.com/view/articles/2013-10-29/one-federal-website-that-works), October 2013, BloombergView: "Texts of official government rules are notoriously difficult to follow. Multiple cross-references to other rules make it necessary to consult many different resources. Experienced rule readers can find official interpretations; others can’t. CFPB’s new user-friendly site makes all available information visible and easily accessible...By focusing on users’ experience of the site, they built something that works well for real people. And the platform will constantly be upgraded because it’s open source -- meaning that any agency or company can adopt it free and improve on it."
 
 ## Open government plans
 
