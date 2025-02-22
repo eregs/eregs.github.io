@@ -160,15 +160,27 @@ agency_repos:
         Pilot project highlighting eRegs' "Notice and Comment" feature.
         Includes static assets, deployment configuration, and UI plugins
         specific to EPA's eManifest ruling.
+  - name: Office of Management and Budget
+    repos:
+    - name: omb-eregs
+      url: https://github.com/18F/omb-eregs
+      short: OMB Policy Library
+      long: >
+        Prototype of a tool to make OMB guidance easier to view, comply 
+        with, and maintain.
+  - name: Center for Medicare & Medicaid Services
+    repos:
+    - name: cmcs-eregulations
+      url: https://github.com/Enterprise-CMCS/cmcs-eregulations
+      short: CMCS eRegulations
+      long: >
+        Modernized single-repository version that uses newer eCFR APIs.
 
 # Style Variables
 brand_color: "#2cb34a"
 
 # eRegs instances in the wild
 instances:
-- url: https://www.fec.gov/regulations
-  title: 11
-  agency: Federal Election Commission
 - url: https://www.consumerfinance.gov/rules-policy/regulations/
   title: 12
   agency: Consumer Financial Protection Bureau
